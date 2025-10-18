@@ -1,0 +1,259 @@
+{
+  "header": {
+    "brand": "APCScholariest",
+    "nav": {
+      "home": "Home",
+      "problem": "Problem",
+      "solution": "Solution",
+      "how": "How it works",
+      "features": "Features",
+      "ai": "AI",
+      "profile_mail": "Profile & Mail",
+      "announcement": "News",
+      "pricing": "Pricing"
+    },
+    "cta": {
+      "signin": "Sign in",
+      "signup": "Get Started"
+    }
+  },
+
+  "hero": {
+    "title": "Find your dream supervisor, lab, and university — in one click",
+    "subtitle": "APCScholariest turns any university page into a smart map of professors, research topics, and verified contacts — so you can shortlist and reach out in minutes, not months.",
+    "cta_primary": "Install Extension",
+    "cta_secondary": "Explore Features",
+    "badges": ["Privacy-first", "Multilingual", "Free to start"],
+    "image_alt": "Preview of APCScholariest parsing a faculty page into professor cards"
+  },
+
+  "audience": {
+    "title": "Who it's for",
+    "groups": {
+      "students": "Students (Bachelor/Master): Discover aligned supervisors and programs faster.",
+      "phd": "PhD Applicants: Identify best-fit labs, focus areas, and funding signals globally.",
+      "researchers": "Researchers: Build collaboration shortlists across institutions and countries.",
+      "universities": "Universities/Professors: Attract better-matched candidates with clear research fit."
+    }
+  },
+
+  "problem": {
+    "title": "The academic search shouldn’t feel like a maze",
+    "points": [
+      "Endless tabs, inconsistent formats, and scattered contacts waste months.",
+      "Unfocused cold emails aren’t helpful for professors or students.",
+      "Global opportunities are hard to compare across sites and languages."
+    ],
+    "pains": [
+      "Hours of manual profile checks per university",
+      "Guesswork on email patterns and contact details",
+      "Hard to match interests to research themes",
+      "No single shortlist to compare across labs/countries"
+    ]
+  },
+
+  "solution": {
+    "title": "Smarter discovery through automation",
+    "subtitle": "Parse faculty pages into structured profiles with topics and contact signals, then match, shortlist, and outreach — with privacy by design.",
+    "benefits": [
+      "On-page extraction of names, departments, research areas",
+      "Topic matching to your interests",
+      "Verified academic email pattern signals",
+      "Private shortlists with tags, notes, and export"
+    ],
+    "cta_primary": "Start Free Trial",
+    "cta_secondary": "See Features"
+  },
+
+  "how": {
+    "title": "How it works",
+    "steps": [
+      { "title": "Explore", "desc": "Open any faculty or directory page." },
+      { "title": "Extract", "desc": "Click once to parse professors, labs, and topics." },
+      { "title": "Match", "desc": "Rank by your research interests and keywords." },
+      { "title": "Save", "desc": "Build a private shortlist with tags and notes." },
+      { "title": "Reach out", "desc": "Compose context-aware emails with verified patterns." }
+    ]
+  },
+
+  "features": {
+    "title": "Powerful features for academic discovery",
+    "items": [
+      { "title": "Unified Academic Mailbox", "desc": "Access and manage all your academic communications — Gmail, Outlook, or campus mail — from one secure dashboard." },
+      { "title": "AI Writing & Translation", "desc": "Compose professional emails and translate them into the professor’s language with tone preserved." },
+      { "title": "Smart Follow-Up Engine", "desc": "Automate polite, context-aware follow-ups that stop when a reply is detected." },
+      { "title": "Conversation Summaries", "desc": "AI summarizes threads, surfaces next steps, and tracks status at a glance." },
+      { "title": "Auto Tagging & Filters", "desc": "Label conversations by intent — outreach, response, opportunity, scholarship — automatically." },
+      { "title": "Calendar Integration", "desc": "Confirm meetings faster with suggested time slots and calendar invites." },
+
+      { "title": "AI Scholar Finder", "desc": "Detects professors, labs, departments, and domains on most university sites." },
+      { "title": "Topic Matching", "desc": "Aligns profiles to your research interests using semantic signals." },
+      { "title": "Verified Contacts", "desc": "Shows confidence for academic email patterns and link sources." },
+      { "title": "Profile Normalization", "desc": "Cleans inconsistent titles, departments, and naming variants." },
+      { "title": "Global Coverage", "desc": "Works across regions and languages where page structure allows." },
+      { "title": "Filters & Tags", "desc": "Filter by field, country, department; tag profiles with your categories." },
+      { "title": "One-Click Export", "desc": "Export to CSV or Google Sheets for planning and collaboration." },
+      { "title": "Privacy-First", "desc": "Local-first processing where possible; transparent public sources only." },
+      { "title": "Saved Lists", "desc": "Organize multiple shortlists like “Fall Apps”, “NLP Germany”, “Top 10”." }
+    ]
+  },
+
+  "usecases": {
+    "title": "Use cases",
+    "cases": [
+      "Bachelor/Master: Quickly shortlist supervisors aligned with your intended thesis.",
+      "PhD Applicants: Compare labs, track funding calls, plan outreach by fit.",
+      "Researchers: Build collaboration targets in new regions or adjacent fields.",
+      "Professors/Universities: Showcase strengths and help best-fit candidates find you."
+    ]
+  },
+
+  "ai": {
+    "title": "Next-gen academic discovery powered by AI",
+    "subtitle": "From understanding your intent to recommending the best supervisors and opportunities.",
+    "features": [
+      { "title": "Smart Topic Analysis", "desc": "Understands your statement of purpose and recommends best-fit supervisors." },
+      { "title": "AI Outreach Writer", "desc": "Drafts personalized, professional introductions that reflect your tone." },
+      { "title": "Opportunity Recommender", "desc": "Surfaces scholarships, calls, and funded positions in real time." },
+      { "title": "Supervisor Fit Score", "desc": "Deep semantic scoring using publications, citations, and lab activity." }
+    ],
+    "cta": "Join AI Beta Waitlist"
+  },
+
+  "profile_mail": {
+    "title": "Your Academic Identity — Profile & Mail in One Place",
+    "subtitle": "Unify your academic profile, email, and communication intelligence in a single secure dashboard.",
+    "paragraphs": [
+      "Your Scholariest profile is more than a profile — it's your academic hub. Manage all your outreach, communication, and follow-ups directly from one interface.",
+      "Connect Gmail, Outlook, Yahoo, or university email accounts securely via OAuth, and compose professional outreach emails assisted by AI.",
+      "AI understands your message tone, tracks replies, and drafts follow-up suggestions — so you focus on research, not reminders."
+    ],
+    "core_features": [
+      { "title": "Unified Academic Mailbox", "desc": "Access and manage all your academic communications in one secure place." },
+      { "title": "AI Writing & Translation", "desc": "Compose professional emails and translate them automatically into the professor’s language." },
+      { "title": "Smart Follow-Up Engine", "desc": "Automate context-aware follow-ups that feel natural, not robotic." },
+      { "title": "Conversation Summaries", "desc": "AI summarizes each email thread and suggests next steps or reminders." },
+      { "title": "Auto Tagging & Filtering", "desc": "Categorize emails by intent — outreach, response, opportunity, or scholarship." },
+      { "title": "Calendar Integration", "desc": "Auto-detect meeting invitations and schedule directly in Google or Outlook Calendar." },
+      { "title": "Research Match Intelligence", "desc": "Discover related labs, topics, and publications directly from your conversations." }
+    ],
+    "cta": "Create Your Academic Profile"
+  },
+
+  "proof": {
+    "title": "Results our users see",
+    "stats": [
+      { "label": "Faster shortlisting", "value": "5×" },
+      { "label": "Email pattern precision", "value": "95%" }
+    ],
+    "testimonials": [
+      "I found three supervisors aligned with my NLP topic in a single afternoon.",
+      "Tags and email verification saved weeks of manual checking.",
+      "Great for comparing labs across countries."
+    ]
+  },
+
+  "announcement": {
+    "title": "APCScholariest announces AI-assisted academic discovery",
+    "desc": "Transform any university webpage into an interactive map of professors, research labs, and verified contact signals.",
+    "quote": "We’re making academic discovery effortless and equitable — with AI-powered, personalized recommendations for every researcher.",
+    "cta_primary": "Install Extension",
+    "cta_secondary": "Media Kit"
+  },
+
+  "pricing": {
+    "title": "Start your 7-day free trial",
+    "subtitle": "Simple pricing. Cancel anytime.",
+    "plans": [
+      {
+        "name": "Starter",
+        "price": "Free",
+        "desc": "Parse pages, save basic shortlists, limited export.",
+        "features": ["Basic extraction", "Shortlists", "Limited export"],
+        "cta": "Install Free"
+      },
+      {
+        "name": "Pro (Monthly)",
+        "price": "$19.97",
+        "desc": "Full extraction, filters, tags, verified patterns, export to Sheets.",
+        "features": ["All extraction features", "Filters & tags", "Verified patterns", "CSV/Sheets export"],
+        "cta": "Start Free Trial"
+      },
+      {
+        "name": "Pro+ (Yearly)",
+        "price": "$197",
+        "desc": "Everything in Pro, priority updates, early AI features, premium support.",
+        "features": ["Everything in Pro", "Priority updates", "AI early access", "Premium support"],
+        "cta": "Start Free Trial"
+      }
+    ],
+    "note": "Student discounts available."
+  },
+
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      { "q": "Does it work with any university website?", "a": "It works on most faculty and ranking pages. On unusual layouts, you’ll still see a basic extraction." },
+      { "q": "How do you get emails?", "a": "We surface academic email pattern signals from public pages and official directories. You choose what to export." },
+      { "q": "Is my data private?", "a": "Yes. Shortlists stay private and local-first where possible. We respect robots.txt and public sources only." },
+      { "q": "Can I export my lists?", "a": "Yes — export to CSV or Google Sheets with one click." },
+      { "q": "Which languages/regions are supported?", "a": "Global coverage where page structure is accessible. You can set interface language in Settings." },
+      { "q": "Will it help me write emails?", "a": "Pro includes guided outreach templates; AI writer is coming to Pro+." },
+      { "q": "Can I compare labs across countries?", "a": "Absolutely — filter by field, country, department, and tags." },
+      { "q": "Is this allowed by universities?", "a": "We use public pages and follow robots.txt. Always follow each site’s policies." },
+      { "q": "How accurate is matching?", "a": "Topic matching uses semantic cues; you remain in control to refine and curate." },
+      { "q": "What browsers are supported?", "a": "Chromium-based browsers initially, with more coming soon." }
+    ]
+  },
+
+  "trust": {
+    "title": "Privacy & Trust",
+    "bullets": [
+      "We don’t sell your data.",
+      "Local-first where possible; optional sync to your dashboard.",
+      "Respectful: public pages only, robots.txt aware."
+    ]
+  },
+
+  "cta_final": {
+    "title": "Ready to find your future supervisor?",
+    "subtitle": "Install the extension and build your shortlist today.",
+    "cta": "Install Extension"
+  },
+
+  "newsletter": {
+    "title": "Get weekly research opportunities",
+    "desc": "Curated labs, calls, and supervisors by field — right to your inbox.",
+    "placeholder": "you@university.edu",
+    "cta": "Subscribe",
+    "success": "Thanks! You’re on the list."
+  },
+
+  "footer": {
+    "brand": "APCScholariest",
+    "tagline": "Your academic future — powered by intelligence.",
+    "links": {
+      "product": {
+        "title": "Product",
+        "items": {
+          "features": "Features",
+          "how": "How it works",
+          "ai": "AI Future",
+          "profile_mail": "Profile & Mail"
+        }
+      },
+      "company": {
+        "title": "Company",
+        "items": {
+          "privacy": "Privacy",
+          "terms": "Terms",
+          "contact": "Contact"
+        }
+      }
+    },
+    "bottom": {
+      "copyright": "© {{year}} APCScholariest — All rights reserved.",
+      "controls": ["Language", "Theme"]
+    }
+  }
+}
