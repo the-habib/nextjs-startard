@@ -1,0 +1,124 @@
+/* ================================
+   🌈 THEME DEFINITIONS — OKLab
+   ================================ */
+
+/* --- Light Theme (default) --- */
+.light {
+  --background: white;
+  --text: black;
+  --primary: oklab(0.62 0.12 -0.15);
+  /* Accent blue */
+  --secondary: oklab(0.82 0.04 -0.08);
+  /* Soft hover blue */
+  --border: oklab(0.88 0 0);
+}
+
+/* --- Dark Theme --- */
+.dark {
+  --background: black;
+  --text: white;
+  --primary: oklab(0.68 0.15 -0.15);
+  /* Electric blue */
+  --secondary: oklab(0.55 0.04 -0.12);
+  /* Dimmer hover */
+  --border: oklab(0.25 0 0);
+}
+
+/* --- AliceBlue Theme  --- */
+.aliceblue {
+  --background: oklab(#b5dcf0);
+  /* #F0F8FF */
+  --text: oklab(0.29 0 0);
+  /* #2C2C2C */
+  --primary: oklab(0.64 0.07 -0.18);
+  /* #3B82F6 */
+  --secondary: oklab(0.73 0.04 -0.14);
+  /* #60A5FA */
+  --border: oklab(0.83 -0.01 -0.02);
+  /* #CBD5E1 */
+}
+
+/* --- DarkGray Theme  --- */
+.darkgray {
+  --background: oklab(0.63 0 0);
+  /* #A9A9A9 */
+  --text: oklab(0.24 0 0);
+  /* #1A1A1A */
+  --primary: oklab(0.57 0.09 -0.18);
+  /* #1E90FF */
+  --secondary: oklab(0.52 0.02 -0.07);
+  /* #4682B4 */
+  --border: oklab(0.41 0 0);
+  /* #696969 */
+}
+
+/* --- MediumTurquoise Theme --- */
+.turquoise {
+  --background: oklab(0.78 -0.12 -0.03);
+  /* #48D1CC */
+  --text: oklab(0.23 -0.01 -0.1);
+  /* #0A192F */
+  --primary: oklab(0.55 -0.11 -0.02);
+  /* #008B8B */
+  --secondary: oklab(0.96 -0.01 -0.02);
+  /* #E0FFFF */
+  --border: oklab(0.69 -0.05 -0.01);
+  /* #5F9EA0 */
+}
+
+/* --- OffWhite Theme --- */
+.offwhite {
+  --background: oklab(0.98 0 0.01);
+  /* #FAF9F6 */
+  --text: oklab(0.32 0 0);
+  /* #2D2D2D */
+  --primary: oklab(0.65 0.12 0.04);
+  /* #E07A5F */
+  --secondary: oklab(0.73 -0.08 0.05);
+  /* #81B29A */
+  --border: oklab(0.91 0 0);
+  /* #E5E5E5 */
+}
+
+@theme {
+  --color-background: oklab(var(--background));
+  --color-text: oklab(var(--text));
+  --color-primary: oklab(var(--primary));
+  --color-secondary: oklab(var(--secondary));
+  --color-border: oklab(var(--border));
+}
+
+/* ================================
+   🌐 UNIVERSAL ELEMENT BINDINGS
+   ================================ */
+
+body {
+  color: var(--text);
+  background-color: var(--background);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button {
+  color: white;
+  background-color: var(--primary);
+  border: 1px solid var(--border);
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--secondary);
+}
+
+.card {
+  color: var(--text);
+  border: 1px solid var(--border);
+  background-color: var(--background);
+}
+
+input,
+textarea,
+select {
+  color: var(--text);
+  border: 1px solid var(--border);
+  background-color: var(--background);
+}
