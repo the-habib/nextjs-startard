@@ -100,8 +100,8 @@ body {
 
 button {
   color: white;
-  background-color: var(--primary);
   border: 1px solid var(--border);
+  background-color: var(--primary);
   transition: background-color 0.3s ease;
 }
 
@@ -119,6 +119,8 @@ input,
 textarea,
 select {
   color: var(--text);
+  font-style: italic;
+  text-transform: capitalize;
   border: 1px solid var(--border);
   background-color: var(--background);
 }
