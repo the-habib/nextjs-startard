@@ -9,6 +9,8 @@ import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { routing } from "@/i18n/routing";
 import SiteHeader from "@/components/layout/SiteHeader";
 import { generateMetadata, viewportConfig } from "@/lib/seo-config";
+import { Providers } from "@/store/providers";
+import { SWRProvider } from "@/swr/provider";
 
 const themes = [
   "light",
@@ -67,18 +69,22 @@ const NextStararAppRootLayout = async ({ children, params }: Props) => {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <ThemeProvider
-          enableSystem
-          themes={themes}
-          attribute="class"
-          value={themeKandV}
-          defaultTheme="system"
-        >
-          <NextIntlClientProvider locale={locale} messages={messages}>
-            <SiteHeader />
-            {children}
-          </NextIntlClientProvider>
-        </ThemeProvider>
+        <Providers>
+          <SWRProvider>
+            <ThemeProvider
+              enableSystem
+              themes={themes}
+              attribute="class"
+              value={themeKandV}
+              defaultTheme="system"
+            >
+              <NextIntlClientProvider locale={locale} messages={messages}>
+                <SiteHeader />
+                {children}
+              </NextIntlClientProvider>
+            </ThemeProvider>
+          </SWRProvider>
+        </Providers>
       </body>
     </html>
   );

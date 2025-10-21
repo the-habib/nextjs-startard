@@ -1,0 +1,399 @@
+{
+  "header": {
+    "brand": "APCScholariest",
+    "nav": {
+      "home": "Startseite",
+      "problem": "Problem",
+      "solution": "Lösung",
+      "how": "So funktioniert’s",
+      "features": "Funktionen",
+      "ai": "KI",
+      "profile_mail": "Profil & E-Mail",
+      "announcement": "Neuigkeiten",
+      "pricing": "Preise"
+    },
+    "cta": {
+      "signin": "Anmelden",
+      "signup": "Loslegen"
+    }
+  },
+
+  "hero": {
+    "title": "Finden Sie Ihren Traum-Betreuer, Ihr Labor und Ihre Universität – mit einem Klick",
+    "subtitle": "APCScholariest verwandelt jede Universitätshomepage in eine intelligente Übersicht von Professoren, Forschungsthemen und verifizierten Kontakten – damit Sie in Minuten statt Monaten eine Auswahl treffen und Kontakt aufnehmen können.",
+    "cta_primary": "Erweiterung installieren",
+    "cta_secondary": "Funktionen entdecken",
+    "badges": [
+      "Datenschutz an erster Stelle",
+      "Mehrsprachig",
+      "Kostenlos starten"
+    ],
+    "image_alt": "Vorschau von APCScholariest, wie es eine Fakultätsseite in Professorenkarten analysiert"
+  },
+
+  "audience": {
+    "title": "Für wen ist es gedacht",
+    "groups": {
+      "students": "Studierende (Bachelor/Master): Finden Sie schneller passende Betreuer und Programme.",
+      "phd": "Doktoranden: Identifizieren Sie weltweit die besten Labore, Forschungsschwerpunkte und Finanzierungshinweise.",
+      "researchers": "Forscher: Erstellen Sie Kollaborationslisten über Institutionen und Länder hinweg.",
+      "universities": "Universitäten/Professoren: Ziehen Sie besser passende Kandidaten mit klarer Forschungsübereinstimmung an."
+    }
+  },
+
+  "problem": {
+    "title": "Die akademische Suche sollte kein Labyrinth sein",
+    "points": [
+      "Unzählige Tabs, inkonsistente Formate und verstreute Kontakte verschwenden Monate.",
+      "Unfokussierte Kalt-E-Mails sind weder für Professoren noch für Studierende hilfreich.",
+      "Globale Möglichkeiten sind schwer über Websites und Sprachen hinweg zu vergleichen."
+    ],
+    "pains": [
+      "Stundenlange manuelle Überprüfung von Profilen pro Universität",
+      "Raten bei E-Mail-Mustern und Kontaktdaten",
+      "Schwierigkeit, Interessen mit Forschungsthemen abzugleichen",
+      "Keine einheitliche Auswahlliste zum Vergleich von Labors/Ländern"
+    ]
+  },
+
+  "solution": {
+    "title": "Intelligente Entdeckung durch Automatisierung",
+    "subtitle": "Analysieren Sie Fakultätsseiten in strukturierte Profile mit Themen und Kontaktsignalen, dann abgleichen, auswählen und kontaktieren – mit Datenschutz im Design.",
+    "benefits": [
+      "Direkte Extraktion von Namen, Abteilungen und Forschungsbereichen",
+      "Themenabgleich mit Ihren Interessen",
+      "Verifizierte akademische E-Mail-Muster-Signale",
+      "Private Auswahllisten mit Tags, Notizen und Export"
+    ],
+    "cta_primary": "Kostenlose Testversion starten",
+    "cta_secondary": "Funktionen ansehen"
+  },
+
+  "how": {
+    "title": "So funktioniert’s",
+    "steps": [
+      {
+        "title": "Erkunden",
+        "desc": "Öffnen Sie eine beliebige Fakultäts- oder Verzeichnisseite."
+      },
+      {
+        "title": "Extrahieren",
+        "desc": "Klicken Sie einmal, um Professoren, Labore und Themen zu analysieren."
+      },
+      {
+        "title": "Abgleichen",
+        "desc": "Sortieren Sie nach Ihren Forschungsinteressen und Schlüsselwörtern."
+      },
+      {
+        "title": "Speichern",
+        "desc": "Erstellen Sie eine private Auswahlliste mit Tags und Notizen."
+      },
+      {
+        "title": "Kontakt aufnehmen",
+        "desc": "Verfassen Sie kontextbezogene E-Mails mit verifizierten Mustern."
+      }
+    ]
+  },
+
+  "features": {
+    "title": "Leistungsstarke Funktionen für die akademische Entdeckung",
+    "items": [
+      {
+        "title": "Einheitliches akademisches Postfach",
+        "desc": "Greifen Sie auf alle Ihre akademischen Kommunikationen zu und verwalten Sie sie – Gmail, Outlook oder Campus-Mail – von einem sicheren Dashboard aus."
+      },
+      {
+        "title": "KI-Schreiben & Übersetzung",
+        "desc": "Verfassen Sie professionelle E-Mails und übersetzen Sie sie in die Sprache des Professors, mit erhaltener Tonalität."
+      },
+      {
+        "title": "Intelligenter Nachfass-Engine",
+        "desc": "Automatisieren Sie höfliche, kontextbezogene Nachfassaktionen, die bei einer Antwort stoppen."
+      },
+      {
+        "title": "Gesprächszusammenfassungen",
+        "desc": "KI fasst E-Mail-Threads zusammen, hebt nächste Schritte hervor und verfolgt den Status auf einen Blick."
+      },
+      {
+        "title": "Automatisches Tagging & Filter",
+        "desc": "Kategorisieren Sie Gespräche nach Absicht – Kontaktaufnahme, Antwort, Gelegenheit, Stipendium – automatisch."
+      },
+      {
+        "title": "Kalenderintegration",
+        "desc": "Bestätigen Sie Meetings schneller mit vorgeschlagenen Zeitfenstern und Kalendereinladungen."
+      },
+      {
+        "title": "KI-Wissenschaftlerfinder",
+        "desc": "Erkennt Professoren, Labore, Abteilungen und Domänen auf den meisten Universitätssites."
+      },
+      {
+        "title": "Themenabgleich",
+        "desc": "Passt Profile an Ihre Forschungsinteressen mithilfe semantischer Signale an."
+      },
+      {
+        "title": "Verifizierte Kontakte",
+        "desc": "Zeigt Vertrauenswerte für akademische E-Mail-Muster und Quellenlinks an."
+      },
+      {
+        "title": "Profilnormalisierung",
+        "desc": "Bereinigt inkonsistente Titel, Abteilungen und Namensvarianten."
+      },
+      {
+        "title": "Globale Abdeckung",
+        "desc": "Funktioniert regions- und sprachübergreifend, wo die Seitenstruktur es erlaubt."
+      },
+      {
+        "title": "Filter & Tags",
+        "desc": "Filtern Sie nach Fach, Land, Abteilung; taggen Sie Profile mit Ihren Kategorien."
+      },
+      {
+        "title": "Ein-Klick-Export",
+        "desc": "Exportieren Sie in CSV oder Google Sheets für Planung und Zusammenarbeit."
+      },
+      {
+        "title": "Datenschutz an erster Stelle",
+        "desc": "Lokale Verarbeitung, wo möglich; ausschließlich transparente öffentliche Quellen."
+      },
+      {
+        "title": "Gespeicherte Listen",
+        "desc": "Organisieren Sie mehrere Auswahllisten wie 'Herbstbewerbungen', 'NLP Deutschland', 'Top 10'."
+      }
+    ]
+  },
+
+  "usecases": {
+    "title": "Anwendungsfälle",
+    "cases": [
+      "Bachelor/Master: Erstellen Sie schnell eine Auswahlliste von Betreuern, die zu Ihrer geplanten Abschlussarbeit passen.",
+      "Doktoranden: Vergleichen Sie Labore, verfolgen Sie Finanzierungsaufrufe, planen Sie Kontaktaufnahmen nach Passgenauigkeit.",
+      "Forscher: Bauen Sie Kollaborationsziele in neuen Regionen oder angrenzenden Feldern auf.",
+      "Professoren/Universitäten: Präsentieren Sie Stärken und helfen Sie passenden Kandidaten, Sie zu finden."
+    ]
+  },
+
+  "ai": {
+    "title": "Nächste Generation der akademischen Entdeckung durch KI",
+    "subtitle": "Von der Erfassung Ihrer Absichten bis zur Empfehlung der besten Betreuer und Möglichkeiten.",
+    "features": [
+      {
+        "title": "Intelligente Themenanalyse",
+        "desc": "Versteht Ihre Zielsetzung und empfiehlt passende Betreuer."
+      },
+      {
+        "title": "KI-Kontaktschreiber",
+        "desc": "Verfasst personalisierte, professionelle Vorstellungen, die Ihren Ton widerspiegeln."
+      },
+      {
+        "title": "Chancenempfehler",
+        "desc": "Hebt Stipendien, Ausschreibungen und geförderte Positionen in Echtzeit hervor."
+      },
+      {
+        "title": "Betreuer-Passgenauigkeit",
+        "desc": "Tiefgehende semantische Bewertung basierend auf Publikationen, Zitaten und Laboraktivitäten."
+      }
+    ],
+    "cta": "Der KI-Beta-Warteliste beitreten"
+  },
+
+  "profile_mail": {
+    "title": "Ihre akademische Identität – Profil & E-Mail an einem Ort",
+    "subtitle": "Vereinen Sie Ihr akademisches Profil, Ihre E-Mails und Kommunikationsintelligenz in einem sicheren Dashboard.",
+    "paragraphs": [
+      "Ihr Scholariest-Profil ist mehr als ein Profil – es ist Ihr akademisches Zentrum. Verwalten Sie alle Ihre Kontaktaufnahmen, Kommunikationen und Nachfassaktionen direkt von einer Schnittstelle aus.",
+      "Verbinden Sie Gmail-, Outlook-, Yahoo- oder Universitäts-E-Mail-Konten sicher über OAuth und verfassen Sie professionelle Kontaktaufnahme-E-Mails mit KI-Unterstützung.",
+      "Die KI versteht Ihren Nachrichtenton, verfolgt Antworten und erstellt Nachfassvorschläge – damit Sie sich auf die Forschung konzentrieren können, nicht auf Erinnerungen."
+    ],
+    "core_features": [
+      {
+        "title": "Einheitliches akademisches Postfach",
+        "desc": "Greifen Sie auf alle Ihre akademischen Kommunikationen an einem sicheren Ort zu und verwalten Sie sie."
+      },
+      {
+        "title": "KI-Schreiben & Übersetzung",
+        "desc": "Verfassen Sie professionelle E-Mails und übersetzen Sie sie automatisch in die Sprache des Professors."
+      },
+      {
+        "title": "Intelligenter Nachfass-Engine",
+        "desc": "Automatisieren Sie kontextbezogene Nachfassaktionen, die natürlich wirken, nicht roboterhaft."
+      },
+      {
+        "title": "Gesprächszusammenfassungen",
+        "desc": "Die KI fasst jeden E-Mail-Thread zusammen und schlägt nächste Schritte oder Erinnerungen vor."
+      },
+      {
+        "title": "Automatisches Tagging & Filtern",
+        "desc": "Kategorisieren Sie E-Mails nach Absicht – Kontaktaufnahme, Antwort, Gelegenheit oder Stipendium."
+      },
+      {
+        "title": "Kalenderintegration",
+        "desc": "Erkennt automatisch Meeting-Einladungen und plant direkt in Google- oder Outlook-Kalender."
+      },
+      {
+        "title": "Forschungs-Match-Intelligenz",
+        "desc": "Entdecken Sie verwandte Labore, Themen und Publikationen direkt aus Ihren Gesprächen."
+      }
+    ],
+    "cta": "Erstellen Sie Ihr akademisches Profil"
+  },
+
+  "proof": {
+    "title": "Ergebnisse, die unsere Nutzer sehen",
+    "stats": [
+      { "label": "Schnelleres Auswählen", "value": "5×" },
+      { "label": "Präzision der E-Mail-Muster", "value": "95%" }
+    ],
+    "testimonials": [
+      "Ich habe an einem Nachmittag drei Betreuer gefunden, die zu meinem NLP-Thema passen.",
+      "Tags und E-Mail-Verifizierung haben Wochen manueller Überprüfung gespart.",
+      "Ideal zum Vergleich von Laboren in verschiedenen Ländern."
+    ]
+  },
+
+  "announcement": {
+    "title": "APCScholariest kündigt KI-gestützte akademische Entdeckung an",
+    "desc": "Verwandeln Sie jede Universitätshomepage in eine interaktive Übersicht von Professoren, Forschungslaboren und verifizierten Kontaktsignalen.",
+    "quote": "Wir machen die akademische Entdeckung mühelos und gerecht – mit KI-gestützten, personalisierten Empfehlungen für jeden Forscher.",
+    "cta_primary": "Erweiterung installieren",
+    "cta_secondary": "Medienkit"
+  },
+
+  "pricing": {
+    "title": "Starten Sie Ihre 7-Tage-Kostenlos-Testversion",
+    "subtitle": "Einfache Preisgestaltung. Jederzeit kündbar.",
+    "plans": [
+      {
+        "name": "Starter",
+        "price": "Kostenlos",
+        "desc": "Seiten analysieren, einfache Auswahllisten speichern, begrenzter Export.",
+        "features": [
+          "Grundlegende Extraktion",
+          "Auswahllisten",
+          "Begrenzter Export"
+        ],
+        "cta": "Kostenlos installieren"
+      },
+      {
+        "name": "Pro (Monatlich)",
+        "price": "$19.97",
+        "desc": "Vollständige Extraktion, Filter, Tags, verifizierte Muster, Export nach Sheets.",
+        "features": [
+          "Alle Extraktionsfunktionen",
+          "Filter & Tags",
+          "Verifizierte Muster",
+          "CSV/Sheets-Export"
+        ],
+        "cta": "Kostenlose Testversion starten"
+      },
+      {
+        "name": "Pro+ (Jährlich)",
+        "price": "$197",
+        "desc": "Alles in Pro, priorisierte Updates, frühe KI-Funktionen, Premium-Support.",
+        "features": [
+          "Alles in Pro",
+          "Priorisierte Updates",
+          "Früher KI-Zugang",
+          "Premium-Support"
+        ],
+        "cta": "Kostenlose Testversion starten"
+      }
+    ],
+    "note": "Studentenrabatte verfügbar."
+  },
+
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "items": [
+      {
+        "q": "Funktioniert es mit jeder Universitätswebsite?",
+        "a": "Es funktioniert auf den meisten Fakultäts- und Rankingseiten. Bei ungewöhnlichen Layouts sehen Sie eine grundlegende Extraktion."
+      },
+      {
+        "q": "Wie erhalten Sie E-Mails?",
+        "a": "Wir zeigen akademische E-Mail-Muster-Signale aus öffentlichen Seiten und offiziellen Verzeichnissen an. Sie entscheiden, was exportiert wird."
+      },
+      {
+        "q": "Sind meine Daten privat?",
+        "a": "Ja. Auswahllisten bleiben privat und lokal, wo möglich. Wir respektieren robots.txt und nutzen nur öffentliche Quellen."
+      },
+      {
+        "q": "Kann ich meine Listen exportieren?",
+        "a": "Ja – exportieren Sie mit einem Klick in CSV oder Google Sheets."
+      },
+      {
+        "q": "Welche Sprachen/Regionen werden unterstützt?",
+        "a": "Globale Abdeckung, wo die Seitenstruktur zugänglich ist. Sie können die Schnittstellensprache in den Einstellungen festlegen."
+      },
+      {
+        "q": "Hilft es mir beim Schreiben von E-Mails?",
+        "a": "Pro enthält geführte Kontaktaufnahme-Vorlagen; KI-Schreiber kommt in Pro+."
+      },
+      {
+        "q": "Kann ich Labore länderübergreifend vergleichen?",
+        "a": "Absolut – filtern Sie nach Fach, Land, Abteilung und Tags."
+      },
+      {
+        "q": "Ist dies von Universitäten erlaubt?",
+        "a": "Wir nutzen öffentliche Seiten und folgen robots.txt. Beachten Sie stets die Richtlinien jeder Website."
+      },
+      {
+        "q": "Wie genau ist der Abgleich?",
+        "a": "Themenabgleich nutzt semantische Signale; Sie behalten die Kontrolle, um zu verfeinern und zu kuratieren."
+      },
+      {
+        "q": "Welche Browser werden unterstützt?",
+        "a": "Zunächst Chromium-basierte Browser, weitere folgen bald."
+      }
+    ]
+  },
+
+  "trust": {
+    "title": "Datenschutz & Vertrauen",
+    "bullets": [
+      "Wir verkaufen Ihre Daten nicht.",
+      "Lokale Verarbeitung, wo möglich; optionale Synchronisation mit Ihrem Dashboard.",
+      "Respektvoll: Nur öffentliche Seiten, robots.txt-konform."
+    ]
+  },
+
+  "cta_final": {
+    "title": "Bereit, Ihren zukünftigen Betreuer zu finden?",
+    "subtitle": "Installieren Sie die Erweiterung und erstellen Sie noch heute Ihre Auswahlliste.",
+    "cta": "Erweiterung installieren"
+  },
+
+  "newsletter": {
+    "title": "Wöchentliche Forschungsmöglichkeiten erhalten",
+    "desc": "Kuratierte Labore, Ausschreibungen und Betreuer nach Fach – direkt in Ihren Posteingang.",
+    "placeholder": "you@university.edu",
+    "cta": "Abonnieren",
+    "success": "Danke! Sie sind auf der Liste."
+  },
+
+  "footer": {
+    "brand": "APCScholariest",
+    "tagline": "Ihre akademische Zukunft – angetrieben von Intelligenz.",
+    "links": {
+      "product": {
+        "title": "Produkt",
+        "items": {
+          "features": "Funktionen",
+          "how": "So funktioniert’s",
+          "ai": "KI-Zukunft",
+          "profile_mail": "Profil & E-Mail"
+        }
+      },
+      "company": {
+        "title": "Unternehmen",
+        "items": {
+          "privacy": "Datenschutz",
+          "terms": "Nutzungsbedingungen",
+          "contact": "Kontakt"
+        }
+      }
+    },
+    "bottom": {
+      "copyright": "© {{year}} APCScholariest – Alle Rechte vorbehalten.",
+      "controls": ["Sprache", "Design"]
+    }
+  }
+}
