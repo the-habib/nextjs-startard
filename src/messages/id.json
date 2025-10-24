@@ -1,0 +1,391 @@
+{
+    "header": {
+        "brand": "APCScholariest",
+        "nav": {
+            "home": "Beranda",
+            "problem": "Masalah",
+            "solution": "Solusi",
+            "how": "Cara Kerja",
+            "features": "Fitur",
+            "ai": "AI",
+            "profile_mail": "Profil & Email",
+            "announcement": "Pengumuman",
+            "pricing": "Harga"
+        },
+        "cta": {
+            "signin": "Masuk",
+            "signup": "Mulai"
+        }
+    },
+    "hero": {
+        "title": "Temukan Pembimbing Impian, Laboratorium, dan Universitas Anda dengan Satu Klik",
+        "subtitle": "APCScholariest mengubah halaman universitas mana pun menjadi peta cerdas dari profesor, topik penelitian, dan kontak terverifikasi — sehingga Anda dapat membuat daftar pendek dan menghubungi dalam hitungan menit, bukan bulan.",
+        "cta_primary": "Pasang Ekstensi",
+        "cta_secondary": "Jelajahi Fitur",
+        "badges": [
+            "Prioritas Privasi",
+            "Multibahasa",
+            "Gratis untuk Memulai"
+        ],
+        "image_alt": "Pratinjau APCScholariest menganalisis halaman fakultas menjadi kartu profesor"
+    },
+    "audience": {
+        "title": "Untuk Siapa",
+        "groups": {
+            "students": "Mahasiswa (Sarjana/Magister): Temukan pembimbing dan program yang selaras lebih cepat.",
+            "phd": "Pelamar Doktoral: Identifikasi laboratorium terbaik, bidang fokus, dan sinyal pendanaan secara global.",
+            "researchers": "Peneliti: Buat daftar pendek untuk kolaborasi lintas institusi dan negara.",
+            "universities": "Universitas/Profesor: Tarik kandidat yang lebih cocok dengan keselarasan penelitian yang jelas."
+        }
+    },
+    "problem": {
+        "title": "Pencarian Akademik Tidak Harus Seperti Labirin",
+        "points": [
+            "Tab yang tak terhitung jumlahnya, format yang tidak konsisten, dan kontak yang tersebar membuang waktu berbulan-bulan.",
+            "Email dingin yang tidak terfokus tidak membantu profesor maupun mahasiswa.",
+            "Membandingkan peluang global di berbagai situs dan bahasa sangat sulit."
+        ],
+        "pains": [
+            "Berjam-jam memeriksa profil secara manual untuk setiap universitas",
+            "Menebak pola email dan detail kontak",
+            "Kesulitan menyelaraskan minat dengan topik penelitian",
+            "Tidak adanya daftar pendek tunggal untuk membandingkan laboratorium/negara"
+        ]
+    },
+    "solution": {
+        "title": "Penemuan Lebih Cerdas melalui Otomatisasi",
+        "subtitle": "Analisis halaman fakultas menjadi profil terstruktur dengan topik dan sinyal kontak, lalu cocokkan, buat daftar pendek, dan hubungi — dengan desain yang mengutamakan privasi.",
+        "benefits": [
+            "Ekstraksi langsung nama, departemen, dan bidang penelitian di halaman",
+            "Pencocokan topik dengan minat Anda",
+            "Sinyal pola email akademik yang terverifikasi",
+            "Daftar pendek pribadi dengan tag, catatan, dan ekspor"
+        ],
+        "cta_primary": "Mulai Uji Coba Gratis",
+        "cta_secondary": "Lihat Fitur"
+    },
+    "how": {
+        "title": "Cara Kerja",
+        "steps": [
+            {
+                "title": "Jelajahi",
+                "desc": "Buka halaman fakultas atau direktori apa pun."
+            },
+            {
+                "title": "Ekstrak",
+                "desc": "Klik sekali untuk menganalisis profesor, laboratorium, dan topik."
+            },
+            {
+                "title": "Cocokkan",
+                "desc": "Urutkan berdasarkan minat penelitian dan kata kunci Anda."
+            },
+            {
+                "title": "Simpan",
+                "desc": "Buat daftar pendek pribadi dengan tag dan catatan."
+            },
+            {
+                "title": "Hubungi",
+                "desc": "Tulis email yang sadar konteks dengan pola terverifikasi."
+            }
+        ]
+    },
+    "features": {
+        "title": "Fitur Kuat untuk Penemuan Akademik",
+        "items": [
+            {
+                "title": "Kotak Masuk Akademik Terpadu",
+                "desc": "Akses dan kelola semua komunikasi akademik Anda — Gmail, Outlook, atau email kampus — dari dasbor yang aman."
+            },
+            {
+                "title": "Penulisan dan Terjemahan AI",
+                "desc": "Tulis email profesional dan terjemahkan ke bahasa profesor dengan nada yang terjaga."
+            },
+            {
+                "title": "Mesin Tindak Lanjut Cerdas",
+                "desc": "Otomatisasi tindak lanjut yang sopan dan sadar konteks yang berhenti saat menerima respons."
+            },
+            {
+                "title": "Ringkasan Percakapan",
+                "desc": "AI merangkum utas email, menyoroti langkah berikutnya, dan melacak status sekilas."
+            },
+            {
+                "title": "Penandaan dan Filter Otomatis",
+                "desc": "Kategorikan percakapan berdasarkan tujuan — penjangkauan, respons, peluang, beasiswa — secara otomatis."
+            },
+            {
+                "title": "Integrasi Kalender",
+                "desc": "Konfirmasi rapat lebih cepat dengan slot waktu yang disarankan dan undangan kalender."
+            },
+            {
+                "title": "Pencari Akademisi AI",
+                "desc": "Mengidentifikasi profesor, laboratorium, departemen, dan domain di sebagian besar situs universitas."
+            },
+            {
+                "title": "Pencocokan Topik",
+                "desc": "Menyelaraskan profil dengan minat penelitian Anda menggunakan sinyal semantik."
+            },
+            {
+                "title": "Kontak Terverifikasi",
+                "desc": "Menampilkan skor kepercayaan untuk pola email akademik dan tautan sumber."
+            },
+            {
+                "title": "Normalisasi Profil",
+                "desc": "Membersihkan judul, departemen, dan variasi nama yang tidak konsisten."
+            },
+            {
+                "title": "Cakupan Global",
+                "desc": "Berfungsi lintas wilayah dan bahasa di mana struktur halaman memungkinkan."
+            },
+            {
+                "title": "Filter dan Tag",
+                "desc": "Filter berdasarkan bidang, negara, departemen; beri tag pada profil dengan kategori Anda."
+            },
+            {
+                "title": "Ekspor Sekali Klik",
+                "desc": "Ekspor ke CSV atau Google Sheets untuk perencanaan dan kolaborasi."
+            },
+            {
+                "title": "Prioritas Privasi",
+                "desc": "Pemrosesan lokal lebih dulu bila memungkinkan; hanya sumber publik yang transparan."
+            },
+            {
+                "title": "Daftar Tersimpan",
+                "desc": "Atur beberapa daftar pendek seperti 'Aplikasi Musim Gugur', 'NLP Jerman', 'Top 10'."
+            }
+        ]
+    },
+    "usecases": {
+        "title": "Kasus Penggunaan",
+        "cases": [
+            "Sarjana/Magister: Buat daftar pendek pembimbing yang selaras dengan tesis yang direncanakan dengan cepat.",
+            "Pelamar Doktoral: Bandingkan laboratorium, lacak panggilan pendanaan, rencanakan penjangkauan berdasarkan kecocokan.",
+            "Peneliti: Bangun target kolaborasi di wilayah baru atau bidang terkait.",
+            "Profesor/Universitas: Pamerkan kekuatan Anda dan bantu kandidat yang lebih cocok menemukan Anda."
+        ]
+    },
+    "ai": {
+        "title": "Penemuan Akademik Generasi Berikutnya Didukung oleh AI",
+        "subtitle": "Dari memahami maksud Anda hingga merekomendasikan pembimbing dan peluang terbaik.",
+        "features": [
+            {
+                "title": "Analisis Topik Cerdas",
+                "desc": "Memahami pernyataan tujuan Anda dan merekomendasikan pembimbing yang paling selaras."
+            },
+            {
+                "title": "Penulis Penjangkauan AI",
+                "desc": "Menulis pengenalan profesional yang dipersonalisasi yang mencerminkan nada Anda."
+            },
+            {
+                "title": "Perekomendasi Peluang",
+                "desc": "Menyoroti beasiswa, panggilan, dan posisi yang didanai secara real-time."
+            },
+            {
+                "title": "Skor Kecocokan Pembimbing",
+                "desc": "Penilaian semantik mendalam menggunakan publikasi, kutipan, dan aktivitas laboratorium."
+            }
+        ],
+        "cta": "Bergabung dengan Daftar Tunggu Beta AI"
+    },
+    "profile_mail": {
+        "title": "Identitas Akademik Anda — Profil & Email dalam Satu Tempat",
+        "subtitle": "Satukan profil akademik, email, dan kecerdasan komunikasi Anda dalam dasbor yang aman.",
+        "paragraphs": [
+            "Profil Scholariest Anda lebih dari sekadar profil — ini adalah pusat akademik Anda. Kelola semua penjangkauan, komunikasi, dan tindak lanjut langsung dari satu antarmuka.",
+            "Hubungkan akun Gmail, Outlook, Yahoo, atau email universitas dengan aman melalui OAuth dan tulis email penjangkauan profesional dengan bantuan AI.",
+            "AI memahami nada pesan Anda, melacak respons, dan menulis saran tindak lanjut — sehingga Anda bisa fokus pada penelitian, bukan pengingat."
+        ],
+        "core_features": [
+            {
+                "title": "Kotak Masuk Akademik Terpadu",
+                "desc": "Akses dan kelola semua komunikasi akademik Anda di satu tempat yang aman."
+            },
+            {
+                "title": "Penulisan dan Terjemahan AI",
+                "desc": "Tulis email profesional dan terjemahkan secara otomatis ke bahasa profesor."
+            },
+            {
+                "title": "Mesin Tindak Lanjut Cerdas",
+                "desc": "Otomatisasi tindak lanjut yang sadar konteks yang terasa alami, bukan robotik."
+            },
+            {
+                "title": "Ringkasan Percakapan",
+                "desc": "AI merangkum setiap utas email dan menyarankan langkah berikutnya atau pengingat."
+            },
+            {
+                "title": "Penandaan dan Penyaringan Otomatis",
+                "desc": "Kategorikan email berdasarkan tujuan — penjangkauan, respons, peluang, atau beasiswa."
+            },
+            {
+                "title": "Integrasi Kalender",
+                "desc": "Deteksi undangan rapat secara otomatis dan jadwalkan langsung di Google atau Outlook Calendar."
+            },
+            {
+                "title": "Kecerdasan Pencocokan Penelitian",
+                "desc": "Temukan laboratorium, topik, dan publikasi terkait langsung dari percakapan Anda."
+            }
+        ],
+        "cta": "Buat Profil Akademik Anda"
+    },
+    "proof": {
+        "title": "Hasil yang Dilihat Pengguna Kami",
+        "stats": [
+            {
+                "label": "Pembuatan Daftar Pendek Lebih Cepat",
+                "value": "5×"
+            },
+            {
+                "label": "Akurasi Pola Email",
+                "value": "95%"
+            }
+        ],
+        "testimonials": [
+            "Saya menemukan tiga pembimbing yang selaras dengan topik NLP saya dalam satu sore.",
+            "Tag dan verifikasi email menghemat berminggu-minggu pemeriksaan manual.",
+            "Ideal untuk membandingkan laboratorium di berbagai negara."
+        ]
+    },
+    "announcement": {
+        "title": "APCScholariest Mengumumkan Penemuan Akademik Berbantuan AI",
+        "desc": "Ubah halaman web universitas mana pun menjadi peta interaktif dari profesor, laboratorium penelitian, dan sinyal kontak terverifikasi.",
+        "quote": "Kami membuat penemuan akademik menjadi mudah dan adil — dengan rekomendasi personal yang didukung AI untuk setiap peneliti.",
+        "cta_primary": "Pasang Ekstensi",
+        "cta_secondary": "Kit Media"
+    },
+    "pricing": {
+        "title": "Mulai Uji Coba Gratis 7 Hari Anda",
+        "subtitle": "Harga sederhana. Batalkan kapan saja.",
+        "plans": [
+            {
+                "name": "Pemula",
+                "price": "Gratis",
+                "desc": "Analisis halaman, simpan daftar pendek dasar, ekspor terbatas.",
+                "features": [
+                    "Ekstraksi Dasar",
+                    "Daftar Pendek",
+                    "Ekspor Terbatas"
+                ],
+                "cta": "Pasang Gratis"
+            },
+            {
+                "name": "Pro (Bulanan)",
+                "price": "$19.97",
+                "desc": "Ekstraksi penuh, filter, tag, pola terverifikasi, ekspor ke Sheets.",
+                "features": [
+                    "Semua Fitur Ekstraksi",
+                    "Filter & Tag",
+                    "Pola Terverifikasi",
+                    "Ekspor CSV/Sheets"
+                ],
+                "cta": "Mulai Uji Coba Gratis"
+            },
+            {
+                "name": "Pro+ (Tahunan)",
+                "price": "$197",
+                "desc": "Semua yang ada di Pro, pembaruan prioritas, fitur AI awal, dukungan premium.",
+                "features": [
+                    "Semua yang ada di Pro",
+                    "Pembaruan Prioritas",
+                    "Akses Awal AI",
+                    "Dukungan Premium"
+                ],
+                "cta": "Mulai Uji Coba Gratis"
+            }
+        ],
+        "note": "Diskon mahasiswa tersedia."
+    },
+    "faq": {
+        "title": "Pertanyaan yang Sering Diajukan",
+        "items": [
+            {
+                "q": "Apakah ini berfungsi dengan situs web universitas mana pun?",
+                "a": "Ini berfungsi pada sebagian besar halaman fakultas dan peringkat. Pada tata letak yang tidak biasa, Anda akan melihat ekstraksi dasar."
+            },
+            {
+                "q": "Bagaimana Anda mendapatkan email?",
+                "a": "Kami menampilkan sinyal pola email akademik dari halaman publik dan direktori resmi. Anda memilih apa yang diekspor."
+            },
+            {
+                "q": "Apakah data saya pribadi?",
+                "a": "Ya. Daftar pendek tetap pribadi dan lokal bila memungkinkan. Kami menghormati robots.txt dan hanya menggunakan sumber publik."
+            },
+            {
+                "q": "Bisakah saya mengekspor daftar saya?",
+                "a": "Ya — ekspor ke CSV atau Google Sheets dengan sekali klik."
+            },
+            {
+                "q": "Bahasa/wilayah apa yang didukung?",
+                "a": "Cakupan global di mana struktur halaman memungkinkan. Anda dapat mengatur bahasa antarmuka di pengaturan."
+            },
+            {
+                "q": "Apakah ini membantu saya menulis email?",
+                "a": "Pro menyertakan templat penjangkauan terpandu; penulis AI akan hadir di Pro+."
+            },
+            {
+                "q": "Bisakah saya membandingkan laboratorium di berbagai negara?",
+                "a": "Tentu saja — filter berdasarkan bidang, negara, departemen, dan tag."
+            },
+            {
+                "q": "Apakah ini diizinkan oleh universitas?",
+                "a": "Kami menggunakan halaman publik dan mengikuti robots.txt. Selalu patuhi kebijakan setiap situs."
+            },
+            {
+                "q": "Seberapa akurat pencocokan?",
+                "a": "Pencocokan topik menggunakan sinyal semantik; Anda tetap mengontrol untuk menyempurnakan dan mengatur."
+            },
+            {
+                "q": "Browser apa yang didukung?",
+                "a": "Awalnya browser berbasis Chromium, lebih banyak lagi akan segera hadir."
+            }
+        ]
+    },
+    "trust": {
+        "title": "Privasi & Kepercayaan",
+        "bullets": [
+            "Kami tidak menjual data Anda.",
+            "Pemrosesan lokal lebih dulu bila memungkinkan; sinkronisasi opsional dengan dasbor Anda.",
+            "Menghormati: Hanya halaman publik, sesuai dengan robots.txt."
+        ]
+    },
+    "cta_final": {
+        "title": "Siap Menemukan Pembimbing Masa Depan Anda?",
+        "subtitle": "Pasang ekstensi dan buat daftar pendek Anda hari ini.",
+        "cta": "Pasang Ekstensi"
+    },
+    "newsletter": {
+        "title": "Dapatkan Peluang Penelitian Mingguan",
+        "desc": "Laboratorium, panggilan, dan pembimbing yang dipilih berdasarkan bidang — langsung ke kotak masuk Anda.",
+        "placeholder": "anda@university.edu",
+        "cta": "Berlangganan",
+        "success": "Terima kasih! Anda ada di daftar."
+    },
+    "footer": {
+        "brand": "APCScholariest",
+        "tagline": "Masa Depan Akademik Anda — Didukung oleh Kecerdasan.",
+        "links": {
+            "product": {
+                "title": "Produk",
+                "items": {
+                    "features": "Fitur",
+                    "how": "Cara Kerja",
+                    "ai": "Masa Depan AI",
+                    "profile_mail": "Profil & Email"
+                }
+            },
+            "company": {
+                "title": "Perusahaan",
+                "items": {
+                    "privacy": "Privasi",
+                    "terms": "Syarat",
+                    "contact": "Kontak"
+                }
+            }
+        },
+        "bottom": {
+            "copyright": "© {{year}} APCScholariest — Hak Cipta Dilindungi.",
+            "controls": [
+                "Bahasa",
+                "Tema"
+            ]
+        }
+    }
+}

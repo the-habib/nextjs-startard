@@ -1,8 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
+import langSlice from "@/store/slices/langSlice";
 import postsReducer from "@/store/slices/postsSlice";
 
 export const store = configureStore({
   reducer: {
+    lang: langSlice,
     posts: postsReducer,
   },
 });

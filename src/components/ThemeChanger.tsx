@@ -21,7 +21,7 @@ const ThemeChanger = () => {
 
   return (
     <select value={theme} onChange={(e) => setTheme(e.target.value)}>
-      {themes.map((t) => (
+      Themes{themes.map((t) => (
         <option key={t} value={t}>
           {t}
         </option>

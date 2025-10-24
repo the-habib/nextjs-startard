@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import { NAV_LINKS } from "@/config/nav-links";
 import ThemeChanger from "@/components/ThemeChanger";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 
 interface ClientNavBarProps {
   widthClass?: string;
@@ -84,7 +85,7 @@ export default function ClientNavBar({
 
       {/* Right side */}
       <div className="ml-auto hidden md:flex items-center gap-3">
-        <ThemeChanger />
+
         <Link
           href="/signup"
           className="
@@ -95,6 +96,8 @@ export default function ClientNavBar({
         >
           Get started
         </Link>
+        <ThemeChanger />
+        <LanguageSwitcher />
       </div>
 
       {/* Mobile toggle */}

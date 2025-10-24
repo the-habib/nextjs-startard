@@ -1,0 +1,391 @@
+{
+    "header": {
+        "brand": "APCScholariest",
+        "nav": {
+            "home": "Início",
+            "problem": "Problema",
+            "solution": "Solução",
+            "how": "Como Funciona",
+            "features": "Funcionalidades",
+            "ai": "IA",
+            "profile_mail": "Perfil e Email",
+            "announcement": "Notícias",
+            "pricing": "Preços"
+        },
+        "cta": {
+            "signin": "Entrar",
+            "signup": "Começar"
+        }
+    },
+    "hero": {
+        "title": "Encontre seu orientador ideal, laboratório e universidade com um clique",
+        "subtitle": "O APCScholariest transforma qualquer página universitária em um mapa inteligente de professores, temas de pesquisa e contatos verificados, permitindo que você crie uma lista restrita e entre em contato em minutos, não meses.",
+        "cta_primary": "Instalar a Extensão",
+        "cta_secondary": "Explorar Funcionalidades",
+        "badges": [
+            "Prioridade à Privacidade",
+            "Multilíngue",
+            "Gratuito para Começar"
+        ],
+        "image_alt": "Visualização do APCScholariest analisando uma página de faculdade em cartões de professores"
+    },
+    "audience": {
+        "title": "Para Quem é Destinado",
+        "groups": {
+            "students": "Estudantes (Graduação/Mestrado): Encontre orientadores e programas alinhados mais rapidamente.",
+            "phd": "Candidatos a Doutorado: Identifique os melhores laboratórios, áreas de foco e sinais de financiamento globalmente.",
+            "researchers": "Pesquisadores: Crie listas restritas para colaborações entre instituições e países.",
+            "universities": "Universidades/Professores: Atraia candidatos mais alinhados com uma correspondência clara de pesquisa."
+        }
+    },
+    "problem": {
+        "title": "A pesquisa acadêmica não deveria ser um labirinto",
+        "points": [
+            "Abas intermináveis, formatos inconsistentes e contatos dispersos desperdiçam meses.",
+            "Emails frios não direcionados não são úteis nem para professores nem para estudantes.",
+            "Comparar oportunidades globais entre sites e idiomas é difícil."
+        ],
+        "pains": [
+            "Horas verificando manualmente perfis por universidade",
+            "Adivinhar padrões de email e detalhes de contato",
+            "Dificuldade em alinhar interesses com temas de pesquisa",
+            "Falta de uma lista restrita única para comparar laboratórios/países"
+        ]
+    },
+    "solution": {
+        "title": "Descoberta mais inteligente por meio da automação",
+        "subtitle": "Analise páginas de faculdades em perfis estruturados com temas e sinais de contato, depois corresponda, crie listas restritas e entre em contato, com privacidade incorporada ao design.",
+        "benefits": [
+            "Extração instantânea de nomes, departamentos e áreas de pesquisa da página",
+            "Correspondência de temas com seus interesses",
+            "Sinais de padrões de email acadêmicos verificados",
+            "Listas restritas privadas com etiquetas, notas e exportação"
+        ],
+        "cta_primary": "Iniciar Teste Gratuito",
+        "cta_secondary": "Ver Funcionalidades"
+    },
+    "how": {
+        "title": "Como Funciona",
+        "steps": [
+            {
+                "title": "Explorar",
+                "desc": "Abra qualquer página de faculdade ou diretório."
+            },
+            {
+                "title": "Extrair",
+                "desc": "Clique uma vez para analisar professores, laboratórios e temas."
+            },
+            {
+                "title": "Corresponder",
+                "desc": "Ordene com base em seus interesses de pesquisa e palavras-chave."
+            },
+            {
+                "title": "Salvar",
+                "desc": "Crie uma lista restrita privada com etiquetas e notas."
+            },
+            {
+                "title": "Contactar",
+                "desc": "Escreva emails conscientes do contexto com padrões verificados."
+            }
+        ]
+    },
+    "features": {
+        "title": "Funcionalidades poderosas para descoberta acadêmica",
+        "items": [
+            {
+                "title": "Caixa de entrada acadêmica unificada",
+                "desc": "Acesse e gerencie todas as suas comunicações acadêmicas — Gmail, Outlook ou email do campus — a partir de um painel seguro."
+            },
+            {
+                "title": "Escrita e tradução por IA",
+                "desc": "Escreva emails profissionais e traduza-os para o idioma do professor, mantendo o tom."
+            },
+            {
+                "title": "Motor de acompanhamento inteligente",
+                "desc": "Automatize acompanhamentos educados e conscientes do contexto que param ao detectar uma resposta."
+            },
+            {
+                "title": "Resumos de conversas",
+                "desc": "A IA resume os fios de email, destaca os próximos passos e rastreia o status de forma instantânea."
+            },
+            {
+                "title": "Etiquetagem e filtros automáticos",
+                "desc": "Categorize conversas por intenção — contato, resposta, oportunidade, bolsa — automaticamente."
+            },
+            {
+                "title": "Integração de calendário",
+                "desc": "Confirme reuniões mais rapidamente com horários sugeridos e convites de calendário."
+            },
+            {
+                "title": "Buscador de acadêmicos por IA",
+                "desc": "Identifica professores, laboratórios, departamentos e domínios na maioria dos sites universitários."
+            },
+            {
+                "title": "Correspondência de temas",
+                "desc": "Alinha perfis aos seus interesses de pesquisa usando sinais semânticos."
+            },
+            {
+                "title": "Contatos verificados",
+                "desc": "Exibe escores de confiança para padrões de email acadêmicos e links de origem."
+            },
+            {
+                "title": "Normalização de perfis",
+                "desc": "Limpa títulos, departamentos e variações de nomes inconsistentes."
+            },
+            {
+                "title": "Cobertura global",
+                "desc": "Funciona em regiões e idiomas onde a estrutura da página permite."
+            },
+            {
+                "title": "Filtros e etiquetas",
+                "desc": "Filtre por área, país, departamento; etiquete perfis com suas categorias."
+            },
+            {
+                "title": "Exportação com um clique",
+                "desc": "Exporte para CSV ou Google Sheets para planejamento e colaboração."
+            },
+            {
+                "title": "Prioridade à privacidade",
+                "desc": "Processamento local prioritário sempre que possível; apenas fontes públicas transparentes."
+            },
+            {
+                "title": "Listas salvas",
+                "desc": "Organize várias listas restritas como 'Aplicações de Outono', 'NLP Alemanha', 'Top 10'."
+            }
+        ]
+    },
+    "usecases": {
+        "title": "Casos de uso",
+        "cases": [
+            "Graduação/Mestrado: Crie rapidamente uma lista restrita de orientadores alinhados com sua tese planejada.",
+            "Candidatos a Doutorado: Compare laboratórios, rastreie chamadas de financiamento, planeje contatos com base no alinhamento.",
+            "Pesquisadores: Construa metas de colaboração em novas regiões ou áreas adjacentes.",
+            "Professores/Universidades: Mostre seus pontos fortes e ajude candidatos mais alinhados a encontrá-lo."
+        ]
+    },
+    "ai": {
+        "title": "Descoberta acadêmica de próxima geração alimentada por IA",
+        "subtitle": "Desde entender sua intenção até recomendar os melhores orientadores e oportunidades.",
+        "features": [
+            {
+                "title": "Análise inteligente de temas",
+                "desc": "Compreende sua declaração de propósito e recomenda orientadores mais alinhados."
+            },
+            {
+                "title": "Escritor de contato por IA",
+                "desc": "Escreve introduções profissionais personalizadas que refletem seu tom."
+            },
+            {
+                "title": "Recomendador de oportunidades",
+                "desc": "Destaca bolsas, chamadas e posições financiadas em tempo real."
+            },
+            {
+                "title": "Escore de alinhamento de orientadores",
+                "desc": "Pontuação semântica profunda usando publicações, citações e atividades de laboratório."
+            }
+        ],
+        "cta": "Junte-se à lista de espera para o beta de IA"
+    },
+    "profile_mail": {
+        "title": "Sua identidade acadêmica: Perfil e email em um só lugar",
+        "subtitle": "Unifique seu perfil acadêmico, email e inteligência de comunicação em um painel seguro.",
+        "paragraphs": [
+            "Seu perfil Scholariest é mais do que um perfil — é seu centro acadêmico. Gerencie todos os seus contatos, comunicações e acompanhamentos diretamente de uma única interface.",
+            "Conecte contas Gmail, Outlook, Yahoo ou universitárias com segurança via OAuth e escreva emails de contato profissionais assistidos por IA.",
+            "A IA entende o tom de suas mensagens, rastreia respostas e redige sugestões de acompanhamento, para que você possa focar na pesquisa, não em lembretes."
+        ],
+        "core_features": [
+            {
+                "title": "Caixa de entrada acadêmica unificada",
+                "desc": "Acesse e gerencie todas as suas comunicações acadêmicas em um único lugar seguro."
+            },
+            {
+                "title": "Escrita e tradução por IA",
+                "desc": "Escreva emails profissionais e traduza-os automaticamente para o idioma do professor."
+            },
+            {
+                "title": "Motor de acompanhamento inteligente",
+                "desc": "Automatize acompanhamentos conscientes do contexto que parecem naturais, não robóticos."
+            },
+            {
+                "title": "Resumos de conversas",
+                "desc": "A IA resume cada fio de email e sugere próximos passos ou lembretes."
+            },
+            {
+                "title": "Etiquetagem e filtragem automáticas",
+                "desc": "Classifique emails por intenção: contato, resposta, oportunidade ou bolsa."
+            },
+            {
+                "title": "Integração de calendário",
+                "desc": "Detecte convites de reunião automaticamente e agende diretamente no Google ou Outlook Calendar."
+            },
+            {
+                "title": "Inteligência de alinhamento de pesquisa",
+                "desc": "Descubra laboratórios, temas e publicações relacionados diretamente de suas conversas."
+            }
+        ],
+        "cta": "Crie seu perfil acadêmico"
+    },
+    "proof": {
+        "title": "Resultados observados por nossos usuários",
+        "stats": [
+            {
+                "label": "Criação de listas mais rápida",
+                "value": "5×"
+            },
+            {
+                "label": "Precisão de padrões de email",
+                "value": "95%"
+            }
+        ],
+        "testimonials": [
+            "Encontrei três orientadores alinhados com meu tema de NLP em uma única tarde.",
+            "As etiquetas e a verificação de emails economizaram semanas de verificação manual.",
+            "Ideal para comparar laboratórios entre países."
+        ]
+    },
+    "announcement": {
+        "title": "APCScholariest anuncia descoberta acadêmica assistida por IA",
+        "desc": "Transforme qualquer página web universitária em um mapa interativo de professores, laboratórios de pesquisa e sinais de contato verificados.",
+        "quote": "Tornamos a descoberta acadêmica fácil e justa, com recomendações personalizadas alimentadas por IA para cada pesquisador.",
+        "cta_primary": "Instalar a Extensão",
+        "cta_secondary": "Kit de Mídia"
+    },
+    "pricing": {
+        "title": "Inicie seu teste gratuito de 7 dias",
+        "subtitle": "Preços simples. Cancele a qualquer momento.",
+        "plans": [
+            {
+                "name": "Iniciante",
+                "price": "Gratuito",
+                "desc": "Analise páginas, salve listas restritas básicas, exportação limitada.",
+                "features": [
+                    "Extração básica",
+                    "Listas restritas",
+                    "Exportação limitada"
+                ],
+                "cta": "Instalar Gratuitamente"
+            },
+            {
+                "name": "Pro (Mensal)",
+                "price": "$19.97",
+                "desc": "Extração completa, filtros, etiquetas, padrões verificados, exportação para Sheets.",
+                "features": [
+                    "Todas as funcionalidades de extração",
+                    "Filtros e etiquetas",
+                    "Padrões verificados",
+                    "Exportação CSV/Sheets"
+                ],
+                "cta": "Iniciar Teste Gratuito"
+            },
+            {
+                "name": "Pro+ (Anual)",
+                "price": "$197",
+                "desc": "Tudo incluso no Pro, atualizações prioritárias, funcionalidades de IA antecipadas, suporte premium.",
+                "features": [
+                    "Tudo do Pro",
+                    "Atualizações prioritárias",
+                    "Acesso antecipado à IA",
+                    "Suporte premium"
+                ],
+                "cta": "Iniciar Teste Gratuito"
+            }
+        ],
+        "note": "Descontos para estudantes disponíveis."
+    },
+    "faq": {
+        "title": "Perguntas Frequentes",
+        "items": [
+            {
+                "q": "Funciona com qualquer site universitário?",
+                "a": "Funciona na maioria das páginas de faculdades e rankings. Em layouts incomuns, você verá uma extração básica."
+            },
+            {
+                "q": "Como vocês obtêm os emails?",
+                "a": "Exibimos sinais de padrões de email acadêmicos a partir de páginas públicas e diretórios oficiais. Você escolhe o que exportar."
+            },
+            {
+                "q": "Meus dados são privados?",
+                "a": "Sim. As listas restritas permanecem privadas e locais sempre que possível. Respeitamos robots.txt e usamos apenas fontes públicas."
+            },
+            {
+                "q": "Posso exportar minhas listas?",
+                "a": "Sim — exporte para CSV ou Google Sheets com um clique."
+            },
+            {
+                "q": "Quais idiomas/regiões são suportados?",
+                "a": "Cobertura global onde a estrutura da página permite. Você pode definir o idioma da interface nas configurações."
+            },
+            {
+                "q": "Isso me ajuda a escrever emails?",
+                "a": "O Pro inclui modelos de contato guiados; o escritor de IA chegará no Pro+."
+            },
+            {
+                "q": "Posso comparar laboratórios entre países?",
+                "a": "Com certeza — filtre por área, país, departamento e etiquetas."
+            },
+            {
+                "q": "Isso é permitido pelas universidades?",
+                "a": "Usamos páginas públicas e respeitamos robots.txt. Sempre siga as políticas de cada site."
+            },
+            {
+                "q": "Quão precisa é a correspondência?",
+                "a": "A correspondência de temas usa sinais semânticos; você mantém o controle para refinar e curar."
+            },
+            {
+                "q": "Quais navegadores são suportados?",
+                "a": "Inicialmente navegadores baseados em Chromium, outros seguirão em breve."
+            }
+        ]
+    },
+    "trust": {
+        "title": "Privacidade e Confiança",
+        "bullets": [
+            "Não vendemos seus dados.",
+            "Processamento local prioritário sempre que possível; sincronização opcional com seu painel.",
+            "Respeitoso: apenas páginas públicas, em conformidade com robots.txt."
+        ]
+    },
+    "cta_final": {
+        "title": "Pronto para encontrar seu futuro orientador?",
+        "subtitle": "Instale a extensão e crie sua lista restrita hoje.",
+        "cta": "Instalar a Extensão"
+    },
+    "newsletter": {
+        "title": "Receba oportunidades de pesquisa semanais",
+        "desc": "Laboratórios, chamadas e orientadores selecionados por área — diretamente na sua caixa de entrada.",
+        "placeholder": "você@university.edu",
+        "cta": "Inscrever-se",
+        "success": "Obrigado! Você está na lista."
+    },
+    "footer": {
+        "brand": "APCScholariest",
+        "tagline": "Seu futuro acadêmico — impulsionado pela inteligência.",
+        "links": {
+            "product": {
+                "title": "Produto",
+                "items": {
+                    "features": "Funcionalidades",
+                    "how": "Como Funciona",
+                    "ai": "Futuro da IA",
+                    "profile_mail": "Perfil e Email"
+                }
+            },
+            "company": {
+                "title": "Empresa",
+                "items": {
+                    "privacy": "Privacidade",
+                    "terms": "Termos",
+                    "contact": "Contato"
+                }
+            }
+        },
+        "bottom": {
+            "copyright": "© {{year}} APCScholariest — Todos os direitos reservados.",
+            "controls": [
+                "Idioma",
+                "Tema"
+            ]
+        }
+    }
+}

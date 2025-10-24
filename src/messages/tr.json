@@ -1,0 +1,391 @@
+{
+    "header": {
+        "brand": "APCScholariest",
+        "nav": {
+            "home": "Ana Sayfa",
+            "problem": "Sorun",
+            "solution": "Çözüm",
+            "how": "Nasıl Çalışır",
+            "features": "Özellikler",
+            "ai": "Yapay Zeka",
+            "profile_mail": "Profil ve E-posta",
+            "announcement": "Duyurular",
+            "pricing": "Fiyatlandırma"
+        },
+        "cta": {
+            "signin": "Giriş Yap",
+            "signup": "Başla"
+        }
+    },
+    "hero": {
+        "title": "Tek Tıkla İdeal Danışmanınızı, Laboratuvarınızı ve Üniversitenizi Bulun",
+        "subtitle": "APCScholariest, herhangi bir üniversite web sayfasını profesörler, araştırma konuları ve doğrulanmış iletişim bilgileri için akıllı bir haritaya dönüştürür — aylar yerine dakikalar içinde bir kısa liste oluşturabilir ve iletişim kurabilirsiniz.",
+        "cta_primary": "Eklentiyi Yükle",
+        "cta_secondary": "Özellikleri Keşfet",
+        "badges": [
+            "Gizliliğe Öncelik",
+            "Çok Dilli",
+            "Ücretsiz Başlangıç"
+        ],
+        "image_alt": "APCScholariest'in fakülte sayfasını profesör kartlarına analiz ettiği bir önizleme"
+    },
+    "audience": {
+        "title": "Kimler İçin",
+        "groups": {
+            "students": "Öğrenciler (Lisans/Yüksek Lisans): Uygun danışmanları ve programları daha hızlı bulun.",
+            "phd": "Doktora Adayları: Dünya çapında en iyi laboratuvarları, odak alanlarını ve finansman sinyallerini belirleyin.",
+            "researchers": "Araştırmacılar: Kurumlar ve ülkeler arasında işbirlikleri için kısa listeler oluşturun.",
+            "universities": "Üniversiteler/Profesörler: Net araştırma uyumu ile daha uygun adayları çekin."
+        }
+    },
+    "problem": {
+        "title": "Akademik Arama Bir Labirent Olmamalı",
+        "points": [
+            "Sayısız sekme, tutarsız formatlar ve dağınık iletişim bilgileri ayları boşa harcar.",
+            "Hedefsiz soğuk e-postalar ne profesörlere ne de öğrencilere fayda sağlar.",
+            "Küresel fırsatları web siteleri ve diller arasında karşılaştırmak zordur."
+        ],
+        "pains": [
+            "Her üniversite için profilleri manuel olarak kontrol etmek saatler alır",
+            "E-posta desenlerini ve iletişim detaylarını tahmin etmek",
+            "İlgi alanlarını araştırma konularıyla eşleştirmek zor",
+            "Laboratuvarları/ülkeleri karşılaştırmak için tek bir kısa liste eksikliği"
+        ]
+    },
+    "solution": {
+        "title": "Otomasyonla Daha Akıllı Keşif",
+        "subtitle": "Fakülte sayfalarını konular ve iletişim sinyalleriyle yapılandırılmış profillere analiz edin, eşleştirin, kısa listeler oluşturun ve iletişim kurun — gizlilik tasarıma entegre edilmiştir.",
+        "benefits": [
+            "Sayfadan isimler, bölümler ve araştırma alanlarının anında çıkarılması",
+            "İlgi alanlarınızla konu eşleştirmesi",
+            "Doğrulanmış akademik e-posta desen sinyalleri",
+            "Etiketler, notlar ve dışa aktarma ile özel kısa listeler"
+        ],
+        "cta_primary": "Ücretsiz Deneme Başlat",
+        "cta_secondary": "Özellikleri Gör"
+    },
+    "how": {
+        "title": "Nasıl Çalışır",
+        "steps": [
+            {
+                "title": "Keşfet",
+                "desc": "Herhangi bir fakülte sayfasını veya dizini açın."
+            },
+            {
+                "title": "Çıkar",
+                "desc": "Profesörleri, laboratuvarları ve konuları analiz etmek için bir kez tıklayın."
+            },
+            {
+                "title": "Eşleştir",
+                "desc": "Araştırma ilgi alanlarınıza ve anahtar kelimelere göre sıralayın."
+            },
+            {
+                "title": "Kaydet",
+                "desc": "Etiketler ve notlarla özel bir kısa liste oluşturun."
+            },
+            {
+                "title": "İletişim Kur",
+                "desc": "Doğrulanmış desenlerle bağlama duyarlı e-postalar yazın."
+            }
+        ]
+    },
+    "features": {
+        "title": "Akademik Keşif için Güçlü Özellikler",
+        "items": [
+            {
+                "title": "Birleşik Akademik Posta Kutusu",
+                "desc": "Gmail, Outlook veya kampüs e-postası gibi tüm akademik iletişimlerinize güvenli bir kontrol panelinden erişin ve yönetin."
+            },
+            {
+                "title": "Yapay Zeka ile Yazma ve Çeviri",
+                "desc": "Profesyonel e-postalar yazın ve bunları profesörün diline tonunu koruyarak çevirin."
+            },
+            {
+                "title": "Akıllı Takip Motoru",
+                "desc": "Yanıt algılandığında duran, kibar ve bağlama duyarlı takipleri otomatikleştirin."
+            },
+            {
+                "title": "Konuşma Özetleri",
+                "desc": "Yapay zeka, e-posta zincirlerini özetler, bir sonraki adımları vurgular ve durumu bir bakışta takip eder."
+            },
+            {
+                "title": "Otomatik Etiketleme ve Filtreleme",
+                "desc": "Konuşmaları niyete göre otomatik olarak sınıflandırın — iletişim, yanıt, fırsat, burs."
+            },
+            {
+                "title": "Takvim Entegrasyonu",
+                "desc": "Önerilen zaman dilimleri ve takvim davetleriyle toplantıları daha hızlı onaylayın."
+            },
+            {
+                "title": "Yapay Zeka Akademisyen Bulucu",
+                "desc": "Çoğu üniversite sitesinde profesörleri, laboratuvarları, bölümleri ve alan adlarını belirler."
+            },
+            {
+                "title": "Konu Eşleştirme",
+                "desc": "Semantik sinyaller kullanarak profilleri araştırma ilgi alanlarınıza uygun hale getirir."
+            },
+            {
+                "title": "Doğrulanmış İletişim",
+                "desc": "Akademik e-posta desenleri ve kaynak bağlantıları için güven puanlarını gösterir."
+            },
+            {
+                "title": "Profil Normalizasyonu",
+                "desc": "Tutarsız unvanlar, bölümler ve isim varyasyonlarını düzenler."
+            },
+            {
+                "title": "Küresel Kapsama",
+                "desc": "Sayfa yapısının izin verdiği bölgelerde ve dillerde çalışır."
+            },
+            {
+                "title": "Filtreler ve Etiketler",
+                "desc": "Alan, ülke, bölüm bazında filtreleyin; profilleri kendi kategorilerinizle etiketleyin."
+            },
+            {
+                "title": "Tek Tıkla Dışa Aktarma",
+                "desc": "Planlama ve işbirliği için CSV veya Google Sheets'e dışa aktarın."
+            },
+            {
+                "title": "Gizliliğe Öncelik",
+                "desc": "Mümkün olduğunda yerel işlem önceliklidir; yalnızca şeffaf açık kaynaklar kullanılır."
+            },
+            {
+                "title": "Kayıtlı Listeler",
+                "desc": "‘Sonbahar Başvuruları’, ‘NLP Almanya’, ‘En İyi 10’ gibi birden fazla kısa listeyi organize edin."
+            }
+        ]
+    },
+    "usecases": {
+        "title": "Kullanım Senaryoları",
+        "cases": [
+            "Lisans/Yüksek Lisans: Planlanan tezinize uygun danışmanların kısa listesini hızla oluşturun.",
+            "Doktora Adayları: Laboratuvarları karşılaştırın, finansman çağrılarını takip edin, uyuma göre iletişim planlayın.",
+            "Araştırmacılar: Yeni bölgelerde veya ilgili alanlarda işbirliği hedefleri oluşturun.",
+            "Profesörler/Üniversiteler: Güçlü yönlerinizi sergileyin ve daha uygun adayların sizi bulmasına yardımcı olun."
+        ]
+    },
+    "ai": {
+        "title": "Yapay Zeka Destekli Yeni Nesil Akademik Keşif",
+        "subtitle": "Niyetinizi anlamaktan en iyi danışmanları ve fırsatları önermeye kadar.",
+        "features": [
+            {
+                "title": "Akıllı Konu Analizi",
+                "desc": "Amaç beyanınızı anlar ve en uygun danışmanları önerir."
+            },
+            {
+                "title": "Yapay Zeka İletişim Yazarı",
+                "desc": "Tonunuzu yansıtan kişiselleştirilmiş profesyonel girişler yazar."
+            },
+            {
+                "title": "Fırsat Önerici",
+                "desc": "Gerçek zamanlı olarak burslar, çağrılar ve finanse edilen pozisyonları vurgular."
+            },
+            {
+                "title": "Danışman Uyum Puanı",
+                "desc": "Yayınlar, atıflar ve laboratuvar faaliyetlerine dayalı derin semantik puanlama."
+            }
+        ],
+        "cta": "Yapay Zeka Beta Bekleme Listesine Katılın"
+    },
+    "profile_mail": {
+        "title": "Akademik Kimliğiniz — Profil ve E-posta Bir Arada",
+        "subtitle": "Akademik profilinizi, e-postanızı ve iletişim zekasını güvenli bir kontrol panelinde birleştirin.",
+        "paragraphs": [
+            "Scholariest profiliniz bir profilden fazlasıdır — akademik merkezinizdir. Tüm iletişimlerinizi, konuşmalarınızı ve takiplerinizi tek bir arayüzden doğrudan yönetin.",
+            "Gmail, Outlook, Yahoo veya üniversite e-posta hesaplarını OAuth aracılığıyla güvenli bir şekilde bağlayın ve yapay zeka destekli profesyonel iletişim e-postaları yazın.",
+            "Yapay zeka, mesajlarınızın tonunu anlar, yanıtları takip eder ve takip önerileri hazırlar — böylece hatırlatıcılar yerine araştırmaya odaklanabilirsiniz."
+        ],
+        "core_features": [
+            {
+                "title": "Birleşik Akademik Posta Kutusu",
+                "desc": "Tüm akademik iletişimlerinize tek bir güvenli yerde erişin ve yönetin."
+            },
+            {
+                "title": "Yapay Zeka ile Yazma ve Çeviri",
+                "desc": "Profesyonel e-postalar yazın ve bunları profesörün diline otomatik olarak çevirin."
+            },
+            {
+                "title": "Akıllı Takip Motoru",
+                "desc": "Bağlama duyarlı, doğal görünen takipleri otomatikleştirin — robot gibi değil."
+            },
+            {
+                "title": "Konuşma Özetleri",
+                "desc": "Yapay zeka her e-posta zincirini özetler ve bir sonraki adımları veya hatırlatıcıları önerir."
+            },
+            {
+                "title": "Otomatik Etiketleme ve Filtreleme",
+                "desc": "E-postaları niyete göre sınıflandırın — iletişim, yanıt, fırsat veya burs."
+            },
+            {
+                "title": "Takvim Entegrasyonu",
+                "desc": "Toplantı davetlerini otomatik olarak tespit edin ve doğrudan Google veya Outlook Takvimine planlayın."
+            },
+            {
+                "title": "Araştırma Eşleştirme Zekası",
+                "desc": "Konuşmalarınızdan doğrudan ilgili laboratuvarları, konuları ve yayınları keşfedin."
+            }
+        ],
+        "cta": "Akademik Profilinizi Oluşturun"
+    },
+    "proof": {
+        "title": "Kullanıcılarımızın Gördüğü Sonuçlar",
+        "stats": [
+            {
+                "label": "Daha Hızlı Liste Oluşturma",
+                "value": "5×"
+            },
+            {
+                "label": "E-posta Deseni Doğruluğu",
+                "value": "95%"
+            }
+        ],
+        "testimonials": [
+            "Bir öğleden sonra NLP konumla uyumlu üç danışman buldum.",
+            "Etiketler ve e-posta doğrulama, haftalarca manuel kontrolü kurtardı.",
+            "Ülkeler arasında laboratuvarları karşılaştırmak için ideal."
+        ]
+    },
+    "announcement": {
+        "title": "APCScholariest Yapay Zeka Destekli Akademik Keşfi Duyurdu",
+        "desc": "Herhangi bir üniversite web sayfasını profesörler, araştırma laboratuvarları ve doğrulanmış iletişim sinyalleri için etkileşimli bir haritaya dönüştürün.",
+        "quote": "Akademik keşfi kolay ve adil hale getiriyoruz — her araştırmacı için yapay zeka destekli kişiselleştirilmiş önerilerle.",
+        "cta_primary": "Eklentiyi Yükle",
+        "cta_secondary": "Medya Kiti"
+    },
+    "pricing": {
+        "title": "7 Günlük Ücretsiz Deneme Başlatın",
+        "subtitle": "Basit fiyatlandırma. İstediğiniz zaman iptal edin.",
+        "plans": [
+            {
+                "name": "Başlangıç",
+                "price": "Ücretsiz",
+                "desc": "Sayfaları analiz edin, temel kısa listeleri kaydedin, sınırlı dışa aktarma.",
+                "features": [
+                    "Temel Çıkarma",
+                    "Kısa Listeler",
+                    "Sınırlı Dışa Aktarma"
+                ],
+                "cta": "Ücretsiz Yükle"
+            },
+            {
+                "name": "Pro (Aylık)",
+                "price": "$19.97",
+                "desc": "Tam çıkarma, filtreler, etiketler, doğrulanmış desenler, Sheets'e dışa aktarma.",
+                "features": [
+                    "Tüm Çıkarma Özellikleri",
+                    "Filtreler ve Etiketler",
+                    "Doğrulanmış Desenler",
+                    "CSV/Sheets Dışa Aktarma"
+                ],
+                "cta": "Ücretsiz Deneme Başlat"
+            },
+            {
+                "name": "Pro+ (Yıllık)",
+                "price": "$197",
+                "desc": "Pro'daki her şey, öncelikli güncellemeler, erken yapay zeka özellikleri, premium destek.",
+                "features": [
+                    "Pro'daki Her Şey",
+                    "Öncelikli Güncellemeler",
+                    "Erken Yapay Zeka Erişimi",
+                    "Premium Destek"
+                ],
+                "cta": "Ücretsiz Deneme Başlat"
+            }
+        ],
+        "note": "Öğrenci indirimleri mevcuttur."
+    },
+    "faq": {
+        "title": "Sıkça Sorulan Sorular",
+        "items": [
+            {
+                "q": "Her üniversite web sitesinde çalışır mı?",
+                "a": "Çoğu fakülte ve sıralama sayfasında çalışır. Olağandışı düzenlerde temel çıkarma görürsünüz."
+            },
+            {
+                "q": "E-postaları nasıl alıyorsunuz?",
+                "a": "Genel sayfalardan ve resmi dizinlerden akademik e-posta desen sinyallerini gösteriyoruz. Neyi dışa aktaracağınızı siz seçersiniz."
+            },
+            {
+                "q": "Verilerim gizli mi?",
+                "a": "Evet. Kısa listeler özeldir ve mümkün olduğunda yerel kalır. robots.txt'e saygı duyarız ve yalnızca genel kaynakları kullanırız."
+            },
+            {
+                "q": "Listelerimi dışa aktarabilir miyim?",
+                "a": "Evet — tek tıkla CSV veya Google Sheets'e dışa aktarabilirsiniz."
+            },
+            {
+                "q": "Hangi diller/bölgeler destekleniyor?",
+                "a": "Sayfa yapısının izin verdiği yerlerde küresel kapsama. Arayüz dilini ayarlardan belirtebilirsiniz."
+            },
+            {
+                "q": "E-posta yazmama yardım eder mi?",
+                "a": "Pro, rehber iletişim şablonlarını içerir; yapay zeka yazarı Pro+'ta gelecek."
+            },
+            {
+                "q": "Laboratuvarları ülkeler arasında karşılaştırabilir miyim?",
+                "a": "Kesinlikle — alan, ülke, bölüm ve etiketlere göre filtreleyin."
+            },
+            {
+                "q": "Bu üniversiteler tarafından izin veriliyor mu?",
+                "a": "Genel sayfaları kullanıyoruz ve robots.txt'e uyuyoruz. Her sitenin politikalarına her zaman saygı gösterin."
+            },
+            {
+                "q": "Eşleştirme ne kadar doğru?",
+                "a": "Konu eşleştirme semantik sinyaller kullanır; siz ince ayar ve kürasyon kontrolünü elinizde tutarsınız."
+            },
+            {
+                "q": "Hangi tarayıcılar destekleniyor?",
+                "a": "Başlangıçta Chromium tabanlı tarayıcılar, yakında diğerleri eklenecek."
+            }
+        ]
+    },
+    "trust": {
+        "title": "Gizlilik ve Güven",
+        "bullets": [
+            "Verilerinizi satmıyoruz.",
+            "Mümkün olduğunda yerel işlem önceliklidir; kontrol panelinizle senkronizasyon isteğe bağlıdır.",
+            "Saygılı: yalnızca genel sayfalar, robots.txt'e uygun."
+        ]
+    },
+    "cta_final": {
+        "title": "Gelecekteki danışmanınızı bulmaya hazır mısınız?",
+        "subtitle": "Eklentiyi yükleyin ve bugün kısa listenizi oluşturun.",
+        "cta": "Eklentiyi Yükle"
+    },
+    "newsletter": {
+        "title": "Haftalık Araştırma Fırsatları Alın",
+        "desc": "Alana göre seçilmiş laboratuvarlar, çağrılar ve danışmanlar — doğrudan gelen kutunuza.",
+        "placeholder": "siz@university.edu",
+        "cta": "Abone Ol",
+        "success": "Teşekkürler! Listeye kaydoldunuz."
+    },
+    "footer": {
+        "brand": "APCScholariest",
+        "tagline": "Akademik geleceğiniz — zeka ile güçlendirildi.",
+        "links": {
+            "product": {
+                "title": "Ürün",
+                "items": {
+                    "features": "Özellikler",
+                    "how": "Nasıl Çalışır",
+                    "ai": "Yapay Zekanın Geleceği",
+                    "profile_mail": "Profil ve E-posta"
+                }
+            },
+            "company": {
+                "title": "Şirket",
+                "items": {
+                    "privacy": "Gizlilik",
+                    "terms": "Şartlar",
+                    "contact": "İletişim"
+                }
+            }
+        },
+        "bottom": {
+            "copyright": "© {{year}} APCScholariest — Tüm hakları saklıdır.",
+            "controls": [
+                "Dil",
+                "Tema"
+            ]
+        }
+    }
+}

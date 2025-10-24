@@ -1,93 +1,162 @@
 import "@/styles/globals.css";
-
 import { notFound } from "next/navigation";
 import { ThemeProvider } from "next-themes";
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import { NextIntlClientProvider, hasLocale } from "next-intl";
+import { NextIntlClientProvider } from "next-intl";
+import { getLocale, setRequestLocale } from "next-intl/server";
 
 import { routing } from "@/i18n/routing";
+import { SWRProvider } from "@/swr/provider";
+import { Providers } from "@/store/providers";
 import SiteHeader from "@/components/layout/SiteHeader";
 import { generateMetadata, viewportConfig } from "@/lib/seo-config";
-import { Providers } from "@/store/providers";
-import { SWRProvider } from "@/swr/provider";
 
-const themes = [
-  "light",
-  "dark",
-  "dark gray",
-  "off white",
-  "turquoise",
-  "alice blue",
-];
-
-const themeKandV = {
-  dark: "dark",
-  light: "light",
-  offwhite: "offwhite",
-  darkgray: "darkgray",
-  turquoise: "turquoise",
-  aliceblue: "aliceblue",
-};
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
+const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
 type Props = {
   children: React.ReactNode;
-  params: Promise<{ locale: string }>;
 };
 
-// Generate static metadata for root layout
 export const metadata: Metadata = generateMetadata();
-
 export const viewport: Viewport = viewportConfig;
 
-const NextStararAppRootLayout = async ({ children, params }: Props) => {
-  const { locale } = await params;
-  if (!hasLocale(routing.locales, locale)) notFound();
+export default async function RootLayout({ children }: Props) {
+  const locale = await getLocale();
+  if (!routing.locales.includes(locale as any)) notFound();
 
-  let messages;
-
+  let messages: Record<string, string>;
   try {
     messages = (await import(`@/messages/${locale}.json`)).default;
-
-    // console.log("messages:", messages)
-  } catch (error) {
+  } catch {
     notFound();
   }
 
+  setRequestLocale(locale);
+
   return (
     <html lang={locale} suppressHydrationWarning>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <Providers>
-          <SWRProvider>
-            <ThemeProvider
-              enableSystem
-              themes={themes}
-              attribute="class"
-              value={themeKandV}
-              defaultTheme="system"
-            >
-              <NextIntlClientProvider locale={locale} messages={messages}>
+          <NextIntlClientProvider locale={locale} messages={messages}>
+            <SWRProvider>
+              <ThemeProvider
+                enableSystem
+                themes={["light", "dark", "darkgray", "offwhite", "turquoise", "aliceblue"]}
+                attribute="class"
+                value={{
+                  dark: "dark",
+                  light: "light",
+                  offwhite: "offwhite",
+                  darkgray: "darkgray",
+                  turquoise: "turquoise",
+                  aliceblue: "aliceblue",
+                }}
+                defaultTheme="system"
+              >
                 <SiteHeader />
                 {children}
-              </NextIntlClientProvider>
-            </ThemeProvider>
-          </SWRProvider>
+              </ThemeProvider>
+            </SWRProvider>
+          </NextIntlClientProvider>
         </Providers>
       </body>
     </html>
   );
-};
+}
 
-export default NextStararAppRootLayout;
+// import "@/styles/globals.css";
+
+// import { notFound } from "next/navigation";
+// import { ThemeProvider } from "next-themes";
+// import type { Metadata, Viewport } from "next";
+// import { Geist, Geist_Mono } from "next/font/google";
+// import { NextIntlClientProvider, hasLocale } from "next-intl";
+// import { setRequestLocale } from 'next-intl/server';
+
+// import { routing } from "@/i18n/routing";
+// import { SWRProvider } from "@/swr/provider";
+// import { Providers } from "@/store/providers";
+// import SiteHeader from "@/components/layout/SiteHeader";
+// import { generateMetadata, viewportConfig } from "@/lib/seo-config";
+// // import getRequestConfig from "@/i18n/request";
+
+// const themes = [
+//   "light",
+//   "dark",
+//   "dark gray",
+//   "off white",
+//   "turquoise",
+//   "alice blue",
+// ];
+
+// const themeKandV = {
+//   dark: "dark",
+//   light: "light",
+//   offwhite: "offwhite",
+//   darkgray: "darkgray",
+//   turquoise: "turquoise",
+//   aliceblue: "aliceblue",
+// };
+
+// const geistSans = Geist({
+//   variable: "--font-geist-sans",
+//   subsets: ["latin"],
+// });
+
+// const geistMono = Geist_Mono({
+//   variable: "--font-geist-mono",
+//   subsets: ["latin"],
+// });
+
+// type Props = {
+//   children: React.ReactNode;
+//   params: Promise<{ locale: string }>;
+// };
+
+// // Generate static metadata for root layout
+// export const metadata: Metadata = generateMetadata();
+
+// export const viewport: Viewport = viewportConfig;
+
+// const NextStararAppRootLayout = async ({ children, params }: Props) => {
+//   const { locale } = await params;
+//   if (!hasLocale(routing.locales, locale)) notFound();
+//   let messages;
+//   try {
+//     messages = (await import(`@/messages/${locale}.json`)).default;
+//     // console.log("messages:", messages)
+//   } catch (error) {
+//     notFound();
+//   }
+
+//   setRequestLocale(locale);
+
+//   return (
+//     <html lang={locale} suppressHydrationWarning>
+//       <body
+//         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+//       >
+//         <Providers>
+//           <NextIntlClientProvider locale={locale} messages={messages}>
+//             <SWRProvider>
+//               <ThemeProvider
+//                 enableSystem
+//                 themes={themes}
+//                 attribute="class"
+//                 value={themeKandV}
+//                 defaultTheme="system"
+//               >
+//                 <SiteHeader />
+//                 {children}
+//               </ThemeProvider>
+//             </SWRProvider>
+//           </NextIntlClientProvider>
+//         </Providers>
+//       </body>
+//     </html>
+//   );
+// };
+
+// export default NextStararAppRootLayout;

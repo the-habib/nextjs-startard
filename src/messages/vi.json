@@ -1,0 +1,391 @@
+{
+    "header": {
+        "brand": "APCScholariest",
+        "nav": {
+            "home": "Trang chủ",
+            "problem": "Vấn đề",
+            "solution": "Giải pháp",
+            "how": "Cách hoạt động",
+            "features": "Tính năng",
+            "ai": "Trí tuệ nhân tạo",
+            "profile_mail": "Hồ sơ và Email",
+            "announcement": "Tin tức",
+            "pricing": "Giá cả"
+        },
+        "cta": {
+            "signin": "Đăng nhập",
+            "signup": "Bắt đầu"
+        }
+    },
+    "hero": {
+        "title": "Tìm người hướng dẫn lý tưởng, phòng thí nghiệm và trường đại học chỉ với một cú nhấp chuột",
+        "subtitle": "APCScholariest biến bất kỳ trang web đại học nào thành một bản đồ thông minh về các giáo sư, chủ đề nghiên cứu và thông tin liên hệ đã được xác minh — giúp bạn tạo danh sách rút gọn và liên hệ trong vài phút, không phải hàng tháng.",
+        "cta_primary": "Cài đặt Tiện ích mở rộng",
+        "cta_secondary": "Khám phá Tính năng",
+        "badges": [
+            "Ưu tiên quyền riêng tư",
+            "Đa ngôn ngữ",
+            "Miễn phí để bắt đầu"
+        ],
+        "image_alt": "Xem trước APCScholariest phân tích trang khoa thành các thẻ giáo sư"
+    },
+    "audience": {
+        "title": "Dành cho ai",
+        "groups": {
+            "students": "Sinh viên (Cử nhân/Thạc sĩ): Tìm người hướng dẫn và chương trình phù hợp nhanh hơn.",
+            "phd": "Ứng viên Tiến sĩ: Xác định các phòng thí nghiệm tốt nhất, lĩnh vực trọng tâm và tín hiệu tài trợ trên toàn cầu.",
+            "researchers": "Nhà nghiên cứu: Tạo danh sách rút gọn cho sự hợp tác giữa các tổ chức và quốc gia.",
+            "universities": "Các trường đại học/Giáo sư: Thu hút các ứng viên phù hợp hơn với sự khớp nối nghiên cứu rõ ràng."
+        }
+    },
+    "problem": {
+        "title": "Tìm kiếm học thuật không nên là một mê cung",
+        "points": [
+            "Vô số tab, định dạng không nhất quán và thông tin liên hệ rải rác làm lãng phí hàng tháng trời.",
+            "Email lạnh không nhắm mục tiêu không hữu ích cho cả giáo sư và sinh viên.",
+            "So sánh các cơ hội toàn cầu giữa các trang web và ngôn ngữ là khó khăn."
+        ],
+        "pains": [
+            "Hàng giờ kiểm tra hồ sơ của từng trường đại học bằng tay",
+            "Đoán mẫu email và chi tiết liên hệ",
+            "Khó khăn trong việc khớp nối sở thích với chủ đề nghiên cứu",
+            "Thiếu một danh sách rút gọn duy nhất để so sánh các phòng thí nghiệm/quốc gia"
+        ]
+    },
+    "solution": {
+        "title": "Khám phá thông minh hơn thông qua tự động hóa",
+        "subtitle": "Phân tích các trang khoa thành hồ sơ có cấu trúc với chủ đề và tín hiệu liên hệ, sau đó khớp nối, tạo danh sách rút gọn và liên hệ — với quyền riêng tư được tích hợp trong thiết kế.",
+        "benefits": [
+            "Trích xuất tức thì tên, khoa và lĩnh vực nghiên cứu từ trang",
+            "Khớp nối chủ đề với sở thích của bạn",
+            "Tín hiệu của các mẫu email học thuật đã được xác minh",
+            "Danh sách rút gọn riêng tư với thẻ, ghi chú và xuất dữ liệu"
+        ],
+        "cta_primary": "Bắt đầu Dùng thử Miễn phí",
+        "cta_secondary": "Xem Tính năng"
+    },
+    "how": {
+        "title": "Cách hoạt động",
+        "steps": [
+            {
+                "title": "Khám phá",
+                "desc": "Mở bất kỳ trang khoa hoặc thư mục nào."
+            },
+            {
+                "title": "Trích xuất",
+                "desc": "Nhấp một lần để phân tích giáo sư, phòng thí nghiệm và chủ đề."
+            },
+            {
+                "title": "Khớp nối",
+                "desc": "Sắp xếp dựa trên sở thích nghiên cứu và từ khóa của bạn."
+            },
+            {
+                "title": "Lưu",
+                "desc": "Tạo danh sách rút gọn riêng tư với thẻ và ghi chú."
+            },
+            {
+                "title": "Liên hệ",
+                "desc": "Viết email nhạy cảm ngữ cảnh với các mẫu đã được xác minh."
+            }
+        ]
+    },
+    "features": {
+        "title": "Tính năng mạnh mẽ cho khám phá học thuật",
+        "items": [
+            {
+                "title": "Hộp thư học thuật hợp nhất",
+                "desc": "Truy cập và quản lý tất cả các liên lạc học thuật của bạn — Gmail, Outlook hoặc email trường — từ một bảng điều khiển an toàn."
+            },
+            {
+                "title": "Viết và Dịch bằng AI",
+                "desc": "Viết email chuyên nghiệp và dịch chúng sang ngôn ngữ của giáo sư, giữ nguyên giọng điệu."
+            },
+            {
+                "title": "Công cụ theo dõi thông minh",
+                "desc": "Tự động hóa các lần theo dõi lịch sự và nhạy cảm ngữ cảnh, dừng lại khi phát hiện phản hồi."
+            },
+            {
+                "title": "Tóm tắt cuộc hội thoại",
+                "desc": "AI tóm tắt các chuỗi email, làm nổi bật các bước tiếp theo và theo dõi trạng thái ngay lập tức."
+            },
+            {
+                "title": "Gắn thẻ và lọc tự động",
+                "desc": "Phân loại các cuộc hội thoại theo ý định — liên hệ, phản hồi, cơ hội, học bổng — tự động."
+            },
+            {
+                "title": "Tích hợp lịch",
+                "desc": "Xác nhận cuộc họp nhanh hơn với các khung giờ được đề xuất và lời mời lịch."
+            },
+            {
+                "title": "Công cụ tìm kiếm học giả bằng AI",
+                "desc": "Xác định giáo sư, phòng thí nghiệm, khoa và tên miền trên hầu hết các trang web đại học."
+            },
+            {
+                "title": "Khớp nối chủ đề",
+                "desc": "Khớp hồ sơ với sở thích nghiên cứu của bạn bằng cách sử dụng tín hiệu ngữ nghĩa."
+            },
+            {
+                "title": "Liên hệ đã xác minh",
+                "desc": "Hiển thị điểm tin cậy cho các mẫu email học thuật và liên kết nguồn."
+            },
+            {
+                "title": "Chuẩn hóa hồ sơ",
+                "desc": "Làm sạch các danh hiệu, khoa và biến thể tên không nhất quán."
+            },
+            {
+                "title": "Phạm vi toàn cầu",
+                "desc": "Hoạt động ở các khu vực và ngôn ngữ mà cấu trúc trang cho phép."
+            },
+            {
+                "title": "Bộ lọc và thẻ",
+                "desc": "Lọc theo lĩnh vực, quốc gia, khoa; gắn thẻ hồ sơ với danh mục của bạn."
+            },
+            {
+                "title": "Xuất bằng một cú nhấp chuột",
+                "desc": "Xuất sang CSV hoặc Google Sheets để lập kế hoạch và hợp tác."
+            },
+            {
+                "title": "Ưu tiên quyền riêng tư",
+                "desc": "Xử lý cục bộ được ưu tiên khi có thể; chỉ sử dụng các nguồn công khai minh bạch."
+            },
+            {
+                "title": "Danh sách đã lưu",
+                "desc": "Tổ chức nhiều danh sách rút gọn như 'Ứng tuyển mùa thu', 'NLP Đức', 'Top 10'."
+            }
+        ]
+    },
+    "usecases": {
+        "title": "Trường hợp sử dụng",
+        "cases": [
+            "Cử nhân/Thạc sĩ: Nhanh chóng tạo danh sách rút gọn các cố vấn phù hợp với luận văn đã lên kế hoạch của bạn.",
+            "Ứng viên Tiến sĩ: So sánh các phòng thí nghiệm, theo dõi các lời kêu gọi tài trợ, lập kế hoạch liên hệ dựa trên sự phù hợp.",
+            "Nhà nghiên cứu: Xây dựng mục tiêu hợp tác ở các khu vực mới hoặc lĩnh vực liên quan.",
+            "Giáo sư/Trường đại học: Thể hiện điểm mạnh của bạn và giúp các ứng viên phù hợp hơn tìm thấy bạn."
+        ]
+    },
+    "ai": {
+        "title": "Khám phá học thuật thế hệ tiếp theo được hỗ trợ bởi AI",
+        "subtitle": "Từ việc hiểu ý định của bạn đến đề xuất các cố vấn và cơ hội tốt nhất.",
+        "features": [
+            {
+                "title": "Phân tích chủ đề thông minh",
+                "desc": "Hiểu tuyên bố mục đích của bạn và đề xuất các cố vấn phù hợp nhất."
+            },
+            {
+                "title": "Người viết liên hệ AI",
+                "desc": "Viết các phần giới thiệu chuyên nghiệp được cá nhân hóa, phản ánh giọng điệu của bạn."
+            },
+            {
+                "title": "Đề xuất cơ hội",
+                "desc": "Làm nổi bật học bổng, lời kêu gọi và vị trí được tài trợ trong thời gian thực."
+            },
+            {
+                "title": "Điểm phù hợp của cố vấn",
+                "desc": "Chấm điểm ngữ nghĩa sâu dựa trên các ấn phẩm, trích dẫn và hoạt động phòng thí nghiệm."
+            }
+        ],
+        "cta": "Tham gia danh sách chờ Beta AI"
+    },
+    "profile_mail": {
+        "title": "Danh tính học thuật của bạn — Hồ sơ và Email trong một nơi",
+        "subtitle": "Hợp nhất hồ sơ học thuật, email và trí thông minh giao tiếp của bạn trong một bảng điều khiển an toàn.",
+        "paragraphs": [
+            "Hồ sơ Scholariest của bạn không chỉ là một hồ sơ — đó là trung tâm học thuật của bạn. Quản lý tất cả các liên hệ, giao tiếp và theo dõi trực tiếp từ một giao diện duy nhất.",
+            "Kết nối an toàn các tài khoản Gmail, Outlook, Yahoo hoặc đại học qua OAuth và viết email liên hệ chuyên nghiệp với sự hỗ trợ của AI.",
+            "AI hiểu giọng điệu của tin nhắn của bạn, theo dõi phản hồi và soạn thảo các gợi ý theo dõi — để bạn có thể tập trung vào nghiên cứu, không phải lời nhắc."
+        ],
+        "core_features": [
+            {
+                "title": "Hộp thư học thuật hợp nhất",
+                "desc": "Truy cập và quản lý tất cả các liên lạc học thuật của bạn trong một nơi an toàn."
+            },
+            {
+                "title": "Viết và Dịch bằng AI",
+                "desc": "Viết email chuyên nghiệp và tự động dịch sang ngôn ngữ của giáo sư."
+            },
+            {
+                "title": "Công cụ theo dõi thông minh",
+                "desc": "Tự động hóa các lần theo dõi nhạy cảm ngữ cảnh, trông tự nhiên, không giống robot."
+            },
+            {
+                "title": "Tóm tắt cuộc hội thoại",
+                "desc": "AI tóm tắt mỗi chuỗi email và gợi ý các bước tiếp theo hoặc lời nhắc."
+            },
+            {
+                "title": "Gắn thẻ và lọc tự động",
+                "desc": "Phân loại email theo ý định: liên hệ, phản hồi, cơ hội hoặc học bổng."
+            },
+            {
+                "title": "Tích hợp lịch",
+                "desc": "Tự động phát hiện lời mời họp và lên lịch trực tiếp trong Google hoặc Outlook Calendar."
+            },
+            {
+                "title": "Trí thông minh khớp nối nghiên cứu",
+                "desc": "Khám phá các phòng thí nghiệm, chủ đề và ấn phẩm liên quan trực tiếp từ các cuộc hội thoại của bạn."
+            }
+        ],
+        "cta": "Tạo hồ sơ học thuật của bạn"
+    },
+    "proof": {
+        "title": "Kết quả mà người dùng của chúng tôi quan sát được",
+        "stats": [
+            {
+                "label": "Tạo danh sách nhanh hơn",
+                "value": "5×"
+            },
+            {
+                "label": "Độ chính xác của mẫu email",
+                "value": "95%"
+            }
+        ],
+        "testimonials": [
+            "Tôi đã tìm thấy ba cố vấn phù hợp với chủ đề NLP của mình chỉ trong một buổi chiều.",
+            "Thẻ và xác minh email đã tiết kiệm hàng tuần kiểm tra thủ công.",
+            "Lý tưởng để so sánh các phòng thí nghiệm giữa các quốc gia."
+        ]
+    },
+    "announcement": {
+        "title": "APCScholariest công bố khám phá học thuật được hỗ trợ bởi AI",
+        "desc": "Biến bất kỳ trang web đại học nào thành một bản đồ tương tác của giáo sư, phòng thí nghiệm nghiên cứu và tín hiệu liên hệ đã được xác minh.",
+        "quote": "Chúng tôi làm cho khám phá học thuật trở nên dễ dàng và công bằng — với các đề xuất cá nhân hóa được hỗ trợ bởi AI cho mọi nhà nghiên cứu.",
+        "cta_primary": "Cài đặt Tiện ích mở rộng",
+        "cta_secondary": "Bộ truyền thông"
+    },
+    "pricing": {
+        "title": "Bắt đầu dùng thử miễn phí 7 ngày",
+        "subtitle": "Giá cả đơn giản. Hủy bất kỳ lúc nào.",
+        "plans": [
+            {
+                "name": "Khởi đầu",
+                "price": "Miễn phí",
+                "desc": "Phân tích các trang, lưu danh sách rút gọn cơ bản, xuất hạn chế.",
+                "features": [
+                    "Trích xuất cơ bản",
+                    "Danh sách rút gọn",
+                    "Xuất hạn chế"
+                ],
+                "cta": "Cài đặt miễn phí"
+            },
+            {
+                "name": "Pro (Hàng tháng)",
+                "price": "$19.97",
+                "desc": "Trích xuất đầy đủ, bộ lọc, thẻ, mẫu đã xác minh, xuất sang Sheets.",
+                "features": [
+                    "Tất cả tính năng trích xuất",
+                    "Bộ lọc và thẻ",
+                    "Mẫu đã xác minh",
+                    "Xuất CSV/Sheets"
+                ],
+                "cta": "Bắt đầu Dùng thử Miễn phí"
+            },
+            {
+                "name": "Pro+ (Hàng năm)",
+                "price": "$197",
+                "desc": "Mọi thứ trong Pro, cập nhật ưu tiên, tính năng AI sớm, hỗ trợ cao cấp.",
+                "features": [
+                    "Mọi thứ trong Pro",
+                    "Cập nhật ưu tiên",
+                    "Truy cập AI sớm",
+                    "Hỗ trợ cao cấp"
+                ],
+                "cta": "Bắt đầu Dùng thử Miễn phí"
+            }
+        ],
+        "note": "Có sẵn chiết khấu cho sinh viên."
+    },
+    "faq": {
+        "title": "Câu hỏi thường gặp",
+        "items": [
+            {
+                "q": "Nó có hoạt động với bất kỳ trang web đại học nào không?",
+                "a": "Hoạt động trên hầu hết các trang khoa và xếp hạng. Trên các bố cục bất thường, bạn sẽ thấy trích xuất cơ bản."
+            },
+            {
+                "q": "Các bạn lấy email từ đâu?",
+                "a": "Chúng tôi hiển thị tín hiệu của các mẫu email học thuật từ các trang công khai và thư mục chính thức. Bạn quyết định những gì sẽ xuất."
+            },
+            {
+                "q": "Dữ liệu của tôi có riêng tư không?",
+                "a": "Có. Danh sách rút gọn vẫn riêng tư và cục bộ khi có thể. Chúng tôi tôn trọng robots.txt và chỉ sử dụng các nguồn công khai."
+            },
+            {
+                "q": "Tôi có thể xuất danh sách của mình không?",
+                "a": "Có — xuất sang CSV hoặc Google Sheets bằng một cú nhấp chuột."
+            },
+            {
+                "q": "Hỗ trợ những ngôn ngữ/khu vực nào?",
+                "a": "Phạm vi toàn cầu nơi cấu trúc trang cho phép. Bạn có thể đặt ngôn ngữ giao diện trong cài đặt."
+            },
+            {
+                "q": "Nó có giúp tôi viết email không?",
+                "a": "Pro bao gồm các mẫu liên hệ có hướng dẫn; người viết AI sẽ có trong Pro+."
+            },
+            {
+                "q": "Tôi có thể so sánh các phòng thí nghiệm giữa các quốc gia không?",
+                "a": "Chắc chắn — lọc theo lĩnh vực, quốc gia, khoa và thẻ."
+            },
+            {
+                "q": "Điều này có được các trường đại học cho phép không?",
+                "a": "Chúng tôi sử dụng các trang công khai và tuân thủ robots.txt. Luôn tuân theo chính sách của từng trang web."
+            },
+            {
+                "q": "Việc khớp nối chính xác đến mức nào?",
+                "a": "Khớp nối chủ đề sử dụng tín hiệu ngữ nghĩa; bạn giữ quyền kiểm soát để tinh chỉnh và quản lý."
+            },
+            {
+                "q": "Hỗ trợ trình duyệt nào?",
+                "a": "Ban đầu là các trình duyệt dựa trên Chromium, các trình duyệt khác sẽ sớm được thêm vào."
+            }
+        ]
+    },
+    "trust": {
+        "title": "Quyền riêng tư và Niềm tin",
+        "bullets": [
+            "Chúng tôi không bán dữ liệu của bạn.",
+            "Xử lý cục bộ được ưu tiên khi có thể; đồng bộ hóa với bảng điều khiển của bạn là tùy chọn.",
+            "Tôn trọng: chỉ các trang công khai, tuân thủ robots.txt."
+        ]
+    },
+    "cta_final": {
+        "title": "Sẵn sàng tìm người hướng dẫn tương lai của bạn?",
+        "subtitle": "Cài đặt tiện ích mở rộng và tạo danh sách rút gọn của bạn hôm nay.",
+        "cta": "Cài đặt Tiện ích mở rộng"
+    },
+    "newsletter": {
+        "title": "Nhận cơ hội nghiên cứu hàng tuần",
+        "desc": "Các phòng thí nghiệm, lời kêu gọi và cố vấn được chọn lọc theo lĩnh vực — gửi thẳng đến hộp thư của bạn.",
+        "placeholder": "bạn@university.edu",
+        "cta": "Đăng ký",
+        "success": "Cảm ơn! Bạn đã có trong danh sách."
+    },
+    "footer": {
+        "brand": "APCScholariest",
+        "tagline": "Tương lai học thuật của bạn — được hỗ trợ bởi trí thông minh.",
+        "links": {
+            "product": {
+                "title": "Sản phẩm",
+                "items": {
+                    "features": "Tính năng",
+                    "how": "Cách hoạt động",
+                    "ai": "Tương lai của AI",
+                    "profile_mail": "Hồ sơ và Email"
+                }
+            },
+            "company": {
+                "title": "Công ty",
+                "items": {
+                    "privacy": "Quyền riêng tư",
+                    "terms": "Điều khoản",
+                    "contact": "Liên hệ"
+                }
+            }
+        },
+        "bottom": {
+            "copyright": "© {{year}} APCScholariest — Bảo lưu mọi quyền.",
+            "controls": [
+                "Ngôn ngữ",
+                "Chủ đề"
+            ]
+        }
+    }
+}

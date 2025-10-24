@@ -1,0 +1,391 @@
+{
+    "header": {
+        "brand": "APCScholariest",
+        "nav": {
+            "home": "Nyumbani",
+            "problem": "Tatizo",
+            "solution": "Suluhisho",
+            "how": "Inavyofanya Kazi",
+            "features": "Vipengele",
+            "ai": "AI",
+            "profile_mail": "Wasifu na Barua Pepe",
+            "announcement": "Matangazo",
+            "pricing": "Bei"
+        },
+        "cta": {
+            "signin": "Ingia",
+            "signup": "Anza"
+        }
+    },
+    "hero": {
+        "title": "Pata Mshauri Wako wa Ndoto, Maabara, na Chuo Kikuu kwa Kubofya Mara Moja",
+        "subtitle": "APCScholariest inabadilisha ukurasa wa chuo kikuu chochote kuwa ramani ya akili ya maprofesa, mada za utafiti, na mawasiliano yaliyothibitishwa — ili uweze kutengeneza orodha fupi na kuwasiliana kwa dakika, sio miezi.",
+        "cta_primary": "Sakinisha Kiendelezi",
+        "cta_secondary": "Chunguza Vipengele",
+        "badges": [
+            "Uangalizi wa Faragha",
+            "Lugha zaidi",
+            "Huru kwa Kuanza"
+        ],
+        "image_alt": "Hakikisho la APCScholariest linachambua ukurasa wa kitivo kuwa kadi za maprofesa"
+    },
+    "audience": {
+        "title": "Ni kwa Ajili ya Nani",
+        "groups": {
+            "students": "Wanafunzi (Shahada/Masta): Pata washauri na programu zinazolingana haraka.",
+            "phd": "Wawasiliaji wa Daktari: Tambua maabara bora zaidi, maeneo ya umakini, na ishara za ufadhili kimataifa.",
+            "researchers": "Watafiti: Tengeneza orodha fupi kwa ajili ya ushirikiano kati ya taasisi na nchi.",
+            "universities": "Vyuo Vikuu/Maprofesa: Vuta wawasiliaji wanaolingana vyema na upatanisho wa utafiti wazi."
+        }
+    },
+    "problem": {
+        "title": "Utafiti wa Kiakademia Haupaswi Kuwa Kama Labirinti",
+        "points": [
+            "Tabu nyingi, miundo isiyolingana, na mawasiliano yaliyotawanyika yanapoteza miezi.",
+            "Barua pepe zisizolenga hazisaidii wala maprofesa wala wanafunzi.",
+            "Kulinganisha fursa za kimataifa kwenye tovuti na lugha tofauti ni ngumu."
+        ],
+        "pains": [
+            "Saa za uchunguzi wa wasifu kwa kila chuo kikuu kwa mikono",
+            "Kubahatisha mifumo ya barua pepe na maelezo ya mawasiliano",
+            "Ugumu wa kupatanisha maslahi na mada za utafiti",
+            "Ukosefu wa orodha fupi moja ya kulinganisha maabara/nchi"
+        ]
+    },
+    "solution": {
+        "title": "Ugunduzi wa Akili zaidi kupitia Otomatiki",
+        "subtitle": "Changanua kurasa za kitivo kuwa wasifu wa muundo na mada na ishara za mawasiliano, kisha linganisha, tengeneza orodha fupi, na wasiliana — kwa faragha iliyojengwa ndani ya muundo.",
+        "benefits": [
+            "Uchukuzi wa papo hapo wa majina, idara, na maeneo ya utafiti kutoka ukurasa",
+            "Upatanisho wa mada na maslahi yako",
+            "Ishara za mifumo ya barua pepe za kiakademia zilizothibitishwa",
+            "Orodha fupi za faragha na lebo, maelezo, na usafirishaji"
+        ],
+        "cta_primary": "Anza Jaribio la Bure",
+        "cta_secondary": "Tazama Vipengele"
+    },
+    "how": {
+        "title": "Inavyofanya Kazi",
+        "steps": [
+            {
+                "title": "Chunguza",
+                "desc": "Fungua ukurasa wa kitivo au saraka yoyote."
+            },
+            {
+                "title": "Chukua",
+                "desc": "Bofya mara moja kuchanganua maprofesa, maabara, na mada."
+            },
+            {
+                "title": "Linganisha",
+                "desc": "Panga kwa msingi wa maslahi yako ya utafiti na maneno ya msingi."
+            },
+            {
+                "title": "Hifadhi",
+                "desc": "Tengeneza orodha fupi ya faragha na lebo na maelezo."
+            },
+            {
+                "title": "Wasiliana",
+                "desc": "Andika barua pepe zinazofahamu muktadha na mifumo iliyothibitishwa."
+            }
+        ]
+    },
+    "features": {
+        "title": "Vipengele vya Nguvu kwa Ugunduzi wa Kiakademia",
+        "items": [
+            {
+                "title": "Sanduku la Barua Pepe la Kiakademia Lililounganishwa",
+                "desc": "Fikia na simamia mawasiliano yako yote ya kiakademia — Gmail, Outlook, au barua pepe za kampasi — kutoka dashibodi salama."
+            },
+            {
+                "title": "Uandishi na Tafsiri ya AI",
+                "desc": "Andika barua pepe za kitaalamu na uzitafsiri kwa lugha ya profesa huku ukihifadhi toni."
+            },
+            {
+                "title": "Injini ya Ufuatiliaji wa Akili",
+                "desc": "Otomatiki ufuatiliaji wa adabu na unaofahamu muktadha ambao unasimama unapogundua jibu."
+            },
+            {
+                "title": "Muhtasari wa Mazungumzo",
+                "desc": "AI inafupisha nyuzi za barua pepe, inaangazia hatua za baadaye, na inafuatilia hali kwa mtazamo wa haraka."
+            },
+            {
+                "title": "Uteuzi wa Lebo na Uchujaji za Otomatiki",
+                "desc": "Panga mazungumzo kwa nia — mawasiliano, jibu, fursa, ufadhili — kiotomatiki."
+            },
+            {
+                "title": "Ujumuishaji wa Kalenda",
+                "desc": "Thibitisha mikutano kwa haraka na nafasi za saa zilizopendekezwa na mialiko ya kalenda."
+            },
+            {
+                "title": "Kitafutaji cha Wasomi cha AI",
+                "desc": "Hutambua maprofesa, maabara, idara, na vikoa kwenye tovuti nyingi za vyuo vikuu."
+            },
+            {
+                "title": "Upatanisho wa Mada",
+                "desc": "Hupatanisha wasifu na maslahi yako ya utafiti kwa kutumia ishara za semantiki."
+            },
+            {
+                "title": "Mawasiliano Yaliyothibitishwa",
+                "desc": "Inaonyesha alama za uaminifu kwa mifumo ya barua pepe za kiakademia na viungo vya chanzo."
+            },
+            {
+                "title": "Usawazishaji wa Wasifu",
+                "desc": "Husafisha vyeo, idara, na tofauti za majina zisizolingana."
+            },
+            {
+                "title": "Ufikiaji wa Kimataifa",
+                "desc": "Hufanya kazi katika mikoa na lugha ambapo muundo wa ukurasa unaruhusu."
+            },
+            {
+                "title": "Vichujio na Lebo",
+                "desc": "Chuja kwa uwanja, nchi, idara; weka lebo kwenye wasifu na kategoria zako."
+            },
+            {
+                "title": "Usafirishaji wa Kubofya Mara Moja",
+                "desc": "Hamisha kwa CSV au Google Sheets kwa mipango na ushirikiano."
+            },
+            {
+                "title": "Uangalizi wa Faragha",
+                "desc": "Uchukuzi wa ndani unapohitajika inapowezekana; vyanzo vya umma vilivyo wazi pekee."
+            },
+            {
+                "title": "Orodha Zilizohifadhiwa",
+                "desc": "Panga orodha fupi nyingi kama vile 'Maombi ya Majira ya Baridi', 'NLP Ujerumani', 'Wapenzi 10'."
+            }
+        ]
+    },
+    "usecases": {
+        "title": "Matumizi",
+        "cases": [
+            "Shahada/Masta: Tengeneza orodha fupi ya washauri wanaolingana na tasnifu yako iliyopangwa kwa haraka.",
+            "Wawasiliaji wa Daktari: Linganisha maabara, fuatilia wito wa ufadhili, panga mawasiliano kwa msingi wa upatanisho.",
+            "Watafiti: Jenga malengo ya ushirikiano katika mikoa mipya au maeneo ya karibu.",
+            "Maprofesa/Vyuo Vikuu: Onyesha nguvu zako na saidia wawasiliaji wanaolingana vyema kukupata."
+        ]
+    },
+    "ai": {
+        "title": "Ugunduzi wa Kiakademia wa Kizazi cha Pili Unaoungwa Mkono na AI",
+        "subtitle": "Kutoka kuelewa nia yako hadi kupendekeza washauri na fursa bora zaidi.",
+        "features": [
+            {
+                "title": "Uchambuzi wa Mada wa Akili",
+                "desc": "Huelewa taarifa yako ya kusudi na inapendekeza washauri wanaolingana zaidi."
+            },
+            {
+                "title": "Mwandishi wa Mawasiliano wa AI",
+                "desc": "Huandika utangulizi wa kitaalamu uliobinafsishwa unaoakisi toni yako."
+            },
+            {
+                "title": "Mpendekezaji wa Fursa",
+                "desc": "Huaangazia ufadhili, wito, na nafasi zilizofadhiliwa kwa wakati halisi."
+            },
+            {
+                "title": "Alama za Upatanisho wa Mshauri",
+                "desc": "Upimaji wa kina wa semantiki kwa kutumia machapisho, nukuu, na shughuli za maabara."
+            }
+        ],
+        "cta": "Jiunge na Orodha ya Kusubiri ya Beta ya AI"
+    },
+    "profile_mail": {
+        "title": "Utambulisho Wako wa Kiakademia — Wasifu na Barua Pepe Katika Sehemu Moja",
+        "subtitle": "Unganisha wasifu wako wa kiakademia, barua pepe, na akili ya mawasiliano katika dashibodi salama.",
+        "paragraphs": [
+            "Wasifu wako wa Scholariest ni zaidi ya wasifu — ni kitovu chako cha kiakademia. Simamia mawasiliano yako yote, mawasiliano, na ufuatiliaji moja kwa moja kutoka kwa kiolesura kimoja.",
+            "Unganisha akaunti za Gmail, Outlook, Yahoo, au za chuo kikuu kwa usalama kupitia OAuth na uandike barua pepe za mawasiliano za kitaalamu zikisaidiwa na AI.",
+            "AI inaelewa toni ya ujumbe wako, inafuatilia majibu, na inaandika mapendekezo ya ufuatiliaji — ili uweze kuzingatia utafiti, sio vikumbusho."
+        ],
+        "core_features": [
+            {
+                "title": "Sanduku la Barua Pepe la Kiakademia Lililounganishwa",
+                "desc": "Fikia na simamia mawasiliano yako yote ya kiakademia katika sehemu moja salama."
+            },
+            {
+                "title": "Uandishi na Tafsiri ya AI",
+                "desc": "Andika barua pepe za kitaalamu na uzitafsiri kiotomatiki kwa lugha ya profesa."
+            },
+            {
+                "title": "Injini ya Ufuatiliaji wa Akili",
+                "desc": "Otomatiki ufuatiliaji wa muktadha unaoonekana wa asili, sio wa roboti."
+            },
+            {
+                "title": "Muhtasari wa Mazungumzo",
+                "desc": "AI inafupisha kila nyuzi ya barua pepe na inapendekeza hatua za baadaye au vikumbusho."
+            },
+            {
+                "title": "Uteuzi wa Lebo na Uchujaji za Otomatiki",
+                "desc": "Panga barua pepe kwa nia — mawasiliano, jibu, fursa, au ufadhili."
+            },
+            {
+                "title": "Ujumuishaji wa Kalenda",
+                "desc": "Gundua mialiko ya mkutano kiotomatiki na upange moja kwa moja katika Kalenda ya Google au Outlook."
+            },
+            {
+                "title": "Akili ya Upatanisho wa Utafiti",
+                "desc": "Gundua maabara, mada, na machapisho yanayohusiana moja kwa moja kutoka kwa mazungumzo yako."
+            }
+        ],
+        "cta": "Tengeneza Wasifu Wako wa Kiakademia"
+    },
+    "proof": {
+        "title": "Matokeo Yanayoonekana na Watumiaji Wetu",
+        "stats": [
+            {
+                "label": "Uundaji wa Orodha za Haraka",
+                "value": "5×"
+            },
+            {
+                "label": "Usahihi wa Mifumo ya Barua Pepe",
+                "value": "95%"
+            }
+        ],
+        "testimonials": [
+            "Nilipata washauri watatu wanaolingana na mada yangu ya NLP kwa alasiri moja tu.",
+            "Lebo na uthibitisho wa barua pepe uliokoa wiki za uchunguzi wa mikono.",
+            "Bora kwa kulinganisha maabara kati ya nchi."
+        ]
+    },
+    "announcement": {
+        "title": "APCScholariest Yatangaza Ugunduzi wa Kiakademia Unaosaidiwa na AI",
+        "desc": "Badilisha ukurasa wa wavuti wa chuo kikuu chochote kuwa ramani ya mwingiliano ya maprofesa, maabara za utafiti, na ishara za mawasiliano zilizothibitishwa.",
+        "quote": "Tunafanya ugunduzi wa kiakademia kuwa rahisi na wa haki — na mapendekezo ya kibinafsi yanayoungwa mkono na AI kwa kila mtafiti.",
+        "cta_primary": "Sakinisha Kiendelezi",
+        "cta_secondary": "Kiti cha Vyombo vya Habari"
+    },
+    "pricing": {
+        "title": "Anza Jaribio Lako la Bure la Siku 7",
+        "subtitle": "Bei rahisi. Futa wakati wowote.",
+        "plans": [
+            {
+                "name": "Mwanzo",
+                "price": "Bure",
+                "desc": "Changanua kurasa, hifadhi orodha fupi za msingi, usafirishaji mdogo.",
+                "features": [
+                    "Uchukuzi wa Msingi",
+                    "Orodha Fupi",
+                    "Usafirishaji Mdogo"
+                ],
+                "cta": "Sakinisha kwa Bure"
+            },
+            {
+                "name": "Pro (Mwezi)",
+                "price": "$19.97",
+                "desc": "Uchukuzi kamili, vichujio, lebo, mifumo iliyothibitishwa, usafirishaji kwa Sheets.",
+                "features": [
+                    "Vipengele Vyote vya Uchukuzi",
+                    "Vichujio na Lebo",
+                    "Mifumo Iliyothibitishwa",
+                    "Usafirishaji CSV/Sheets"
+                ],
+                "cta": "Anza Jaribio la Bure"
+            },
+            {
+                "name": "Pro+ (Mwaka)",
+                "price": "$197",
+                "desc": "Kila kitu kilichojumuishwa katika Pro, masasisho ya kipaumbele, vipengele vya AI vya mapema, msaada wa premium.",
+                "features": [
+                    "Kila kitu cha Pro",
+                    "Masasisho ya Kipaumbele",
+                    "Ufikiaji wa Mapema wa AI",
+                    "Msaada wa Premium"
+                ],
+                "cta": "Anza Jaribio la Bure"
+            }
+        ],
+        "note": "Punguzo la wanafunzi linapatikana."
+    },
+    "faq": {
+        "title": "Maswali Yanayoulizwa Mara kwa Mara",
+        "items": [
+            {
+                "q": "Je, inafanya kazi na tovuti yoyote ya chuo kikuu?",
+                "a": "Inafanya kazi kwenye kurasa nyingi za kitivo na cheo. Katika miundo isiyo ya kawaida, utaona uchukuzi wa msingi."
+            },
+            {
+                "q": "Mnapataje barua pepe?",
+                "a": "Tunaonyesha ishara za mifumo ya barua pepe za kiakademia kutoka kurasa za umma na saraka rasmi. Unachagua nini cha kusafirisha."
+            },
+            {
+                "q": "Je, data yangu ni ya faragha?",
+                "a": "Ndiyo. Orodha fupi zinabaki za faragha na za ndani inapowezekana. Tunastahi robots.txt na kutumia vyanzo vya umma pekee."
+            },
+            {
+                "q": "Je, ninaweza kusafirisha orodha zangu?",
+                "a": "Ndiyo — hamisha kwa CSV au Google Sheets kwa kubofya mara moja."
+            },
+            {
+                "q": "Je, lugha/mikoa gani inayoungwa mkono?",
+                "a": "Ufikiaji wa kimataifa ambapo muundo wa ukurasa unaruhusu. Unaweza kuweka lugha ya kiolesura katika mipangilio."
+            },
+            {
+                "q": "Je, hii itanisaidia kuandika barua pepe?",
+                "a": "Pro inajumuisha templeti za mawasiliano zinazoongozwa; mwandishi wa AI atakuja katika Pro+."
+            },
+            {
+                "q": "Je, ninaweza kulinganisha maabara kati ya nchi?",
+                "a": "Bila shaka — chuja kwa uwanja, nchi, idara, na lebo."
+            },
+            {
+                "q": "Je, hii inaruhusiwa na vyuo vikuu?",
+                "a": "Tunatumia kurasa za umma na kufuata robots.txt. Daima fuata sera za kila tovuti."
+            },
+            {
+                "q": "Upatanisho ni sahihi kiasi gani?",
+                "a": "Upatanisho wa mada hutumia ishara za semantiki; unadumisha udhibiti wa kusafisha na kuratibu."
+            },
+            {
+                "q": "Je, vivinjari gani vinavyoungwa mkono?",
+                "a": "Awali vivinjari vinavyotegemea Chromium, vingine vitafuata hivi karibuni."
+            }
+        ]
+    },
+    "trust": {
+        "title": "Faragha na Imani",
+        "bullets": [
+            "Hatuuzi data yako.",
+            "Uchuckuzi wa ndani unapohitajika inapowezekana; usawazishaji wa hiari na dashibodi yako.",
+            "Wenye heshima: kurasa za umma pekee, zinazotii robots.txt."
+        ]
+    },
+    "cta_final": {
+        "title": "Je, Uko Tayari Kupata Mshauri Wako wa Baadaye?",
+        "subtitle": "Sakinisha kiendelezi na tengeneza orodha yako fupi leo.",
+        "cta": "Sakinisha Kiendelezi"
+    },
+    "newsletter": {
+        "title": "Pokea Fursa za Utafiti za Kila Wiki",
+        "desc": "Maabara, wito, na washauri walioteuliwa kwa uwanja — moja kwa moja kwenye sanduku lako la barua pepe.",
+        "placeholder": "wewe@university.edu",
+        "cta": "Jiandikishe",
+        "success": "Asante! Uko kwenye orodha."
+    },
+    "footer": {
+        "brand": "APCScholariest",
+        "tagline": "Mustakabali Wako wa Kiakademia — Unaoungwa Mkono na Akili.",
+        "links": {
+            "product": {
+                "title": "Bidhaa",
+                "items": {
+                    "features": "Vipengele",
+                    "how": "Inavyofanya Kazi",
+                    "ai": "Mustakabali wa AI",
+                    "profile_mail": "Wasifu na Barua Pepe"
+                }
+            },
+            "company": {
+                "title": "Kampuni",
+                "items": {
+                    "privacy": "Faragha",
+                    "terms": "Masharti",
+                    "contact": "Mawasiliano"
+                }
+            }
+        },
+        "bottom": {
+            "copyright": "© {{year}} APCScholariest — Haki Zote Zimehifadhiwa.",
+            "controls": [
+                "Lugha",
+                "Mandhari"
+            ]
+        }
+    }
+}
