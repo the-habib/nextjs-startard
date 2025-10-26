@@ -1,36 +1,166 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+````md
+# 🎓 ApcScholariest
 
-## Getting Started
+ApcScholariest is a modern, elegant **authentication and onboarding interface**
+built with **Next.js 15.5.6 (Turbopack)**, **TypeScript**, and **Tailwind
+CSS**.\
+It provides a responsive, accessible, and production-ready UI for **user
+registration** and **login** — designed for education, research, and
+professional web platforms.
 
-First, run the development server:
+---
+
+## 🚀 Features
+
+- ⚡ **Next.js 15.5.6 + Turbopack** — lightning-fast build and rendering.
+- 💎 **TypeScript (TSX)** — for robust type safety and maintainable code.
+- 🎨 **Tailwind CSS** — utility-first responsive styling with clean UI.
+- 🔐 **Complete Authentication UI** — includes signup and login pages.
+- 🧠 **Smart Form Validation** — real-time client-side validation and state
+  management.
+- 🪄 **Show/Hide Password Toggle**, “Remember Me”, and Terms agreement.
+- 🌈 **Glassmorphism Design** — aesthetic backdrop blur with gradients.
+- 📱 **Fully Responsive Layout** — optimized for all devices.
+- 🌍 **Locale-ready Structure** — built inside `/[locale]/` for i18n expansion.
+
+---
+
+## 📁 Project Structure
+
+```bash
+src/
+└── app/
+    └── [locale]/
+        ├── signup/
+        │   └── page.tsx
+        ├── login/
+        │   └── page.tsx
+        ├── layout.tsx
+        └── globals.css
+```
+````
+
+---
+
+## 🧩 Tech Stack
+
+| Tool                  | Purpose                                         |
+| --------------------- | ----------------------------------------------- |
+| **Next.js 15.5.6**    | Full-stack React framework using the App Router |
+| **TypeScript (TSX)**  | Static typing for predictable, scalable code    |
+| **Tailwind CSS**      | Utility-first CSS for flexible, modern UI       |
+| **React Hooks**       | Local state management and event handling       |
+| **ESLint + Prettier** | Clean, consistent, and linted codebase          |
+
+---
+
+## 💡 How It Works
+
+### 📝 Signup Page
+
+- Fields: Full Name, Email, Password, Confirm Password, Terms Checkbox
+- Validates all inputs before submission
+- Alerts user when registration is successful (demo simulation)
+- Ready to integrate with real backend (NextAuth, Firebase, Supabase)
+
+### 🔑 Login Page
+
+- Fields: Email, Password, Remember Me
+- Show/Hide password toggle
+- “Forgot password” and “Continue with Google/Facebook” sections
+- Matches Signup layout with mirrored design and color scheme
+
+---
+
+## 🛠️ Getting Started
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/yourusername/apcscholariest.git
+cd apcscholariest
+```
+
+### 2️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open **[http://localhost:3000/en/signup](http://localhost:3000/en/signup)**
+or **/login** in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧪 Development Notes
 
-## Learn More
+- Uses the **App Router** and `"use client"` components for interactivity.
+- All input fields are controlled via React state and validated with TypeScript.
+- Compatible with **Next.js 15.5.6** and future-ready for **Turbopack**.
+- Minimal dependencies — maximum speed and readability.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📸 Screenshots
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+| Signup                                                     | Login                                                    |
+| ---------------------------------------------------------- | -------------------------------------------------------- |
+| ![Signup Page Screenshot](./public/screenshots/signup.png) | ![Login Page Screenshot](./public/screenshots/login.png) |
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🤝 Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Contributions are always welcome! You can enhance animations, add new locales,
+or integrate with real backend APIs.
+
+1. Fork the repo
+2. Create a feature branch
+
+   ```bash
+   git checkout -b feature/your-feature
+   ```
+3. Commit your changes
+
+   ```bash
+   git commit -m "Add new feature"
+   ```
+4. Push to your branch and open a Pull Request 🚀
+
+---
+
+## 🪪 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE)
+file for more details.
+
+---
+
+## 💬 Acknowledgments
+
+Special thanks to:
+
+- **Next.js** — for a powerful full-stack React framework
+- **Tailwind CSS** — for simplifying modern UI development
+- **Open Source Community** — for inspiration and continuous improvement
+
+---
+
+## 🧭 Roadmap
+
+- [ ] Add Framer Motion animations for smoother transitions
+- [ ] Implement real backend authentication (NextAuth / Supabase)
+- [ ] Add multi-language support (via `next-intl`)
+- [ ] Dark mode toggle
+- [ ] Accessibility (ARIA roles + screen reader optimization)
+
+---
+
+> ✨ _Crafted with care and precision for the next generation of scholars —
+> ApcScholariest._

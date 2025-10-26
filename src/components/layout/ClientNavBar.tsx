@@ -37,7 +37,7 @@ export default function ClientNavBar({
         className="inline-flex items-center gap-2 font-bold text-lg tracking-tight"
       >
         <span className="inline-block h-6 w-6 rounded-lg bg-brand-gradient" />
-        AlphaQ
+        ApcScholariest
       </Link>
 
       {/* Desktop Nav */}
