@@ -37,7 +37,7 @@ export default function ClientNavBar({
         className="inline-flex items-center gap-2 font-bold text-lg tracking-tight"
       >
         <span className="inline-block h-6 w-6 rounded-lg bg-brand-gradient" />
-        AlphaQ
+        Next Starter App
       </Link>
 
       {/* Desktop Nav */}
@@ -85,7 +85,6 @@ export default function ClientNavBar({
 
       {/* Right side */}
       <div className="ml-auto hidden md:flex items-center gap-3">
-
         <Link
           href="/signup"
           className="

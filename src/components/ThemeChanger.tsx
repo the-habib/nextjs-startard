@@ -1,32 +1,29 @@
 "use client";
 
 import { useTheme } from "next-themes";
+import { Sun, Moon } from "lucide-react";
 import { useState, useEffect } from "react";
 
 const ThemeChanger = () => {
   const [mounted, setMounted] = useState(false);
-  const { theme, themes, setTheme } = useTheme();
+  const { theme, setTheme } = useTheme();
 
   useEffect(() => {
     setMounted(true);
   }, []);
 
-  if (!mounted) {
-    return (
-      <select>
-        <option>Loading...</option>
-      </select>
-    );
-  }
+  if (!mounted) return null;
+
+  const isLight = theme === "light";
 
   return (
-    <select value={theme} onChange={(e) => setTheme(e.target.value)}>
-      Themes{themes.map((t) => (
-        <option key={t} value={t}>
-          {t}
-        </option>
-      ))}
-    </select>
+    <button
+      onClick={() => setTheme(isLight ? "dark" : "light")}
+      className="p-2 rounded-full transition-transform hover:scale-110"
+      aria-label="Toggle Theme"
+    >
+      {isLight ? <Moon className="w-3 h-3" /> : <Sun className="w-3 h-3 " />}
+    </button>
   );
 };
 

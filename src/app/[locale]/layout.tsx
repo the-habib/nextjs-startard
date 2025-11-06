@@ -2,8 +2,8 @@ import "@/styles/globals.css";
 import { notFound } from "next/navigation";
 import { ThemeProvider } from "next-themes";
 import type { Metadata, Viewport } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
+import { Geist, Geist_Mono } from "next/font/google";
 import { getLocale, setRequestLocale } from "next-intl/server";
 
 import { routing } from "@/i18n/routing";
@@ -13,7 +13,10 @@ import SiteHeader from "@/components/layout/SiteHeader";
 import { generateMetadata, viewportConfig } from "@/lib/seo-config";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
-const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
 
 type Props = {
   children: React.ReactNode;
@@ -37,22 +40,20 @@ export default async function RootLayout({ children }: Props) {
 
   return (
     <html lang={locale} suppressHydrationWarning>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
         <Providers>
           <NextIntlClientProvider locale={locale} messages={messages}>
             <SWRProvider>
               <ThemeProvider
-                enableSystem
-                themes={["light", "dark", "darkgray", "offwhite", "turquoise", "aliceblue"]}
                 attribute="class"
+                themes={["dark", "light"]}
                 value={{
                   dark: "dark",
                   light: "light",
-                  offwhite: "offwhite",
-                  darkgray: "darkgray",
-                  turquoise: "turquoise",
-                  aliceblue: "aliceblue",
                 }}
+                enableSystem={true}
                 defaultTheme="system"
               >
                 <SiteHeader />

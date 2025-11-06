@@ -1,6 +1,6 @@
 {
   "header": {
-    "brand": "APCScholariest",
+    "brand": "Scholariest",
     "nav": {
       "home": "Home",
       "problem": "Problem",
@@ -23,7 +23,456 @@
     "cta_primary": "Install Extension",
     "cta_secondary": "Explore Features",
     "badges": ["Privacy-first", "Multilingual", "Free to start"],
-    "image_alt": "Preview of APCScholariest parsing a faculty page into professor cards"
+    "image_alt": "Preview of APCScholariest parsing a faculty page into professor cards",
+    "universities": [
+      {
+        "prospectus": {
+          "title": "Tier A Universities",
+          "subtitle": "Use arrow keys, swipe, or short‑form buttons to navigate.",
+          "tierA": [
+            {
+              "slug": "tsinghua",
+              "abbr": "THU",
+              "name": "Tsinghua University",
+              "city": "Beijing",
+              "founded": "1911",
+              "type": "Public · C9 League",
+              "palette": {
+                "primary": "from-fuchsia-500",
+                "secondary": "to-violet-500"
+              },
+              "snapshot": [
+                "Comprehensive strengths with standout engineering & CS",
+                "Highly international research collaborations",
+                "Robust innovation ecosystem and student entrepreneurship"
+              ],
+              "facilities": [
+                "Advanced engineering & AI labs; maker & prototyping spaces",
+                "Science park with startup incubators and industry partners",
+                "Extensive libraries with digital research access",
+                "Modern international student housing & cultural centers"
+              ],
+              "scholarships": [
+                "Chinese Government Scholarship (CSC) pathways",
+                "University-level merit scholarships",
+                "Department fellowships for research-track programs"
+              ],
+              "programs": [
+                "Engineering, CS/AI, Data & Information, Architecture, MBA",
+                "Selective English-taught programs at master’s/doctoral levels"
+              ],
+              "research": [
+                "Key labs in AI, materials, energy, and information sciences",
+                "Active joint labs with leading global universities",
+                "Interdisciplinary centers combining engineering + policy"
+              ],
+              "outcomes": [
+                "Strong employer recognition across tech, finance, and consulting",
+                "Vibrant alumni network; research placements",
+                "Start‑up pipeline via on‑campus incubators"
+              ],
+              "links": {
+                "admissions": "https://www.tsinghua.edu.cn",
+                "scholarships": "https://www.campuschina.org"
+              }
+            },
+            {
+              "slug": "peking",
+              "abbr": "PKU",
+              "name": "Peking University",
+              "city": "Beijing",
+              "founded": "1898",
+              "type": "Public · C9 League",
+              "palette": {
+                "primary": "from-rose-500",
+                "secondary": "to-orange-500"
+              },
+              "snapshot": [
+                "Comprehensive leader in sciences, humanities, and policy",
+                "International learning environment with global exchanges",
+                "Strong graduate schools and interdisciplinary programs"
+              ],
+              "facilities": [
+                "Modern labs across sciences and life sciences",
+                "Extensive libraries and museum collections",
+                "Career centers with global employer outreach"
+              ],
+              "scholarships": [
+                "CSC opportunities for master’s/PhD",
+                "PKU scholarships and tuition waivers",
+                "College‑specific awards for top entrants"
+              ],
+              "programs": [
+                "Sciences, Economics, Law, Public Policy, International Studies",
+                "English‑medium options at the graduate level"
+              ],
+              "research": [
+                "Interdisciplinary institutes linking science & social science",
+                "Strong publication culture and research mentorship"
+              ],
+              "outcomes": [
+                "Policy, finance, research and academia pathways",
+                "International exchanges and dual‑degree opportunities"
+              ],
+              "links": {
+                "admissions": "https://www.pku.edu.cn",
+                "scholarships": "https://www.isd.pku.edu.cn"
+              }
+            },
+            {
+              "slug": "fudan",
+              "abbr": "FDU",
+              "name": "Fudan University",
+              "city": "Shanghai",
+              "founded": "1905",
+              "type": "Public · C9 League",
+              "palette": {
+                "primary": "from-indigo-500",
+                "secondary": "to-cyan-500"
+              },
+              "snapshot": [
+                "Comprehensive strengths with urban campus advantages",
+                "Active global partnerships and exchange",
+                "Strong social sciences & management alongside STEM"
+              ],
+              "facilities": [
+                "Urban research labs and medical centers",
+                "Entrepreneurship hubs; internship pipelines in Shanghai",
+                "Libraries and learning commons with digital resources"
+              ],
+              "scholarships": [
+                "CSC channels",
+                "Fudan international student scholarships",
+                "School‑level tuition support"
+              ],
+              "programs": [
+                "Management, Economics, International Relations, Data Science",
+                "Selective English‑taught master’s/PhD tracks"
+              ],
+              "research": [
+                "Research clusters in data, biomed, and public health",
+                "Think‑tanks linked with city/industry projects"
+              ],
+              "outcomes": [
+                "MNCs, finance, and consulting placements",
+                "Global study opportunities in partner networks"
+              ],
+              "links": {
+                "admissions": "https://www.fudan.edu.cn",
+                "scholarships": "https://iso.fudan.edu.cn"
+              }
+            },
+            {
+              "slug": "zju",
+              "abbr": "ZJU",
+              "name": "Zhejiang University",
+              "city": "Hangzhou",
+              "founded": "1897",
+              "type": "Public · C9 League",
+              "palette": {
+                "primary": "from-emerald-500",
+                "secondary": "to-teal-500"
+              },
+              "snapshot": [
+                "Comprehensive, innovation‑driven university",
+                "Close ties with Hangzhou digital industry",
+                "Collaborative programs across engineering, life sciences, and management"
+              ],
+              "facilities": [
+                "State‑of‑the‑art labs and supercomputing resources",
+                "Innovation & entrepreneurship centers",
+                "Modern residential colleges"
+              ],
+              "scholarships": [
+                "CSC",
+                "ZJU international student scholarships",
+                "Research assistantships for graduate students"
+              ],
+              "programs": [
+                "Engineering, CS, Biomedical, Management",
+                "Select English‑medium offerings"
+              ],
+              "research": [
+                "Key labs in AI, robotics, medicine, and agriculture",
+                "Cross‑disciplinary initiatives with local industry"
+              ],
+              "outcomes": [
+                "Tech/startup ecosystem connections",
+                "Research institute and global firm pathways"
+              ],
+              "links": {
+                "admissions": "https://www.zju.edu.cn",
+                "scholarships": "https://iczu.zju.edu.cn"
+              }
+            },
+            {
+              "slug": "sjtu",
+              "abbr": "SJTU",
+              "name": "Shanghai Jiao Tong University",
+              "city": "Shanghai",
+              "founded": "1896",
+              "type": "Public · C9 League",
+              "palette": {
+                "primary": "from-red-500",
+                "secondary": "to-amber-500"
+              },
+              "snapshot": [
+                "Historic strength in engineering & applied sciences",
+                "Business and management schools with city‑industry links",
+                "International campuses and collaborations"
+              ],
+              "facilities": [
+                "Engineering complexes and labs; medical schools",
+                "Entrepreneurship bases and tech transfer offices",
+                "Libraries and international student centers"
+              ],
+              "scholarships": [
+                "CSC",
+                "SJTU scholarships and tuition waivers",
+                "School‑level awards"
+              ],
+              "programs": [
+                "Engineering, Ship/Marine, Data/AI, Biomedical, MBA",
+                "English‑taught programs (selected)"
+              ],
+              "research": [
+                "Robotics, AI, materials, and maritime research",
+                "Collaborations with industry partners in Shanghai"
+              ],
+              "outcomes": [
+                "Employer visibility in engineering & finance",
+                "Internships via Shanghai tech clusters"
+              ],
+              "links": {
+                "admissions": "https://www.sjtu.edu.cn",
+                "scholarships": "https://isc.sjtu.edu.cn"
+              }
+            },
+            {
+              "slug": "ustc",
+              "abbr": "USTC",
+              "name": "University of Science and Technology of China (USTC)",
+              "city": "Hefei",
+              "founded": "1958",
+              "type": "Public · C9 League",
+              "palette": {
+                "primary": "from-sky-500",
+                "secondary": "to-blue-500"
+              },
+              "snapshot": [
+                "STEM‑focused research university",
+                "Compact, research‑intensive community",
+                "Strong mentoring culture in physics, CS, and materials"
+              ],
+              "facilities": [
+                "Advanced physics and quantum labs",
+                "Computational research facilities",
+                "Graduate research hubs and seminar culture"
+              ],
+              "scholarships": [
+                "CSC",
+                "USTC fellowship opportunities",
+                "PI‑funded research assistantships"
+              ],
+              "programs": [
+                "Physics, CS/AI, Materials, Chemistry, Earth & Space Sciences",
+                "English‑medium graduate tracks (select)"
+              ],
+              "research": [
+                "Quantum information, astrophysics, advanced materials",
+                "Interdisciplinary science collaborations"
+              ],
+              "outcomes": [
+                "Research placements and PhD progression",
+                "Tech and research institute hiring pathways"
+              ],
+              "links": {
+                "admissions": "https://www.ustc.edu.cn",
+                "scholarships": "https://isa.ustc.edu.cn"
+              }
+            },
+            {
+              "slug": "nju",
+              "abbr": "NJU",
+              "name": "Nanjing University",
+              "city": "Nanjing",
+              "founded": "1902",
+              "type": "Public · C9 League",
+              "palette": {
+                "primary": "from-purple-500",
+                "secondary": "to-indigo-500"
+              },
+              "snapshot": [
+                "Comprehensive strengths in sciences & humanities",
+                "Collaborative culture across departments",
+                "Strong graduate training in research methods"
+              ],
+              "facilities": [
+                "Research labs in chemistry, earth science, and CS",
+                "Libraries and field research centers",
+                "Student innovation labs"
+              ],
+              "scholarships": [
+                "CSC",
+                "NJU international scholarships",
+                "Departmental funding for research students"
+              ],
+              "programs": [
+                "Chemistry, Earth Science, CS/Data, Humanities, Management",
+                "English‑taught graduate programs (select)"
+              ],
+              "research": [
+                "Geosciences, chemistry, data science, language tech",
+                "Collaborations with domestic & international labs"
+              ],
+              "outcomes": [
+                "Research careers, public sector, education, industry R&D",
+                "Alumni network across sectors"
+              ],
+              "links": {
+                "admissions": "https://www.nju.edu.cn",
+                "scholarships": "https://ie.nju.edu.cn"
+              }
+            },
+            {
+              "slug": "hust",
+              "abbr": "HUST",
+              "name": "Huazhong University of Science and Technology (HUST)",
+              "city": "Wuhan",
+              "founded": "1952",
+              "type": "Public · Double First‑Class",
+              "palette": {
+                "primary": "from-cyan-500",
+                "secondary": "to-emerald-500"
+              },
+              "snapshot": [
+                "Strong STEM and medical disciplines",
+                "Large, diverse campus community",
+                "Applied research with manufacturing links"
+              ],
+              "facilities": [
+                "Engineering & medical labs; innovation centers",
+                "Comprehensive libraries and maker spaces",
+                "International student services and housing"
+              ],
+              "scholarships": [
+                "CSC",
+                "HUST scholarships for international students",
+                "PI‑backed research assistant roles"
+              ],
+              "programs": [
+                "Engineering, CS/AI, Medicine, Materials, Energy",
+                "English‑taught programs (selected)"
+              ],
+              "research": [
+                "Robotics, optics, materials, biomedical engineering",
+                "Joint projects with industry parks"
+              ],
+              "outcomes": [
+                "Engineering placements; research institute roles",
+                "Opportunities in central China industry hubs"
+              ],
+              "links": {
+                "admissions": "https://www.hust.edu.cn",
+                "scholarships": "https://iso.hust.edu.cn"
+              }
+            },
+            {
+              "slug": "sysu",
+              "abbr": "SYSU",
+              "name": "Sun Yat‑sen University (SYSU)",
+              "city": "Guangzhou · Shenzhen",
+              "founded": "1924",
+              "type": "Public · Double First‑Class",
+              "palette": {
+                "primary": "from-amber-500",
+                "secondary": "to-lime-500"
+              },
+              "snapshot": [
+                "Comprehensive university with multiple campuses",
+                "Growing international footprint",
+                "Health sciences and management alongside STEM"
+              ],
+              "facilities": [
+                "Medical centers and life science labs",
+                "Modern libraries; coastal campus resources",
+                "Career services with Pearl River Delta employers"
+              ],
+              "scholarships": [
+                "CSC",
+                "SYSU international student scholarships",
+                "College‑level support"
+              ],
+              "programs": [
+                "Life Sciences, Medicine, Management, CS, Environment",
+                "Select English‑medium offerings"
+              ],
+              "research": [
+                "Public health, environmental science, data/AI",
+                "Regional collaboration with innovation zones"
+              ],
+              "outcomes": [
+                "Healthcare, public sector, and tech industry roles",
+                "Access to GBA opportunities"
+              ],
+              "links": {
+                "admissions": "https://www.sysu.edu.cn",
+                "scholarships": "https://iso.sysu.edu.cn"
+              }
+            },
+            {
+              "slug": "xjtu",
+              "abbr": "XJTU",
+              "name": "Xi’an Jiaotong University (XJTU)",
+              "city": "Xi’an",
+              "founded": "1896",
+              "type": "Public · C9 League",
+              "palette": {
+                "primary": "from-teal-500",
+                "secondary": "to-cyan-500"
+              },
+              "snapshot": [
+                "Engineering‑led comprehensive university",
+                "Historical strengths with modern R&D focus",
+                "Supportive environment for international students"
+              ],
+              "facilities": [
+                "Engineering labs and national research platforms",
+                "Tech transfer and incubators",
+                "Libraries and learning commons"
+              ],
+              "scholarships": [
+                "CSC",
+                "XJTU scholarships and tuition waivers",
+                "Research assistant opportunities"
+              ],
+              "programs": [
+                "Electrical/Mechanical, Energy, CS/AI, Management",
+                "Graduate English‑taught options (select)"
+              ],
+              "research": [
+                "Energy systems, power engineering, materials, AI",
+                "Collaborations with Silk‑Road‑linked industry"
+              ],
+              "outcomes": [
+                "Placements in engineering sectors",
+                "Graduate research progression"
+              ],
+              "links": {
+                "admissions": "https://www.xjtu.edu.cn",
+                "scholarships": "https://is.xjtu.edu.cn"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "prospectus": {}
+      },
+      {
+        "prospectus": {}
+      }
+    ]
   },
   "audience": {
     "title": "Who it's for",

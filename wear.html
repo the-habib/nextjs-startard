@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>APCScholariest — Wireframe</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Global wireframe vibe */
+      :root {
+        --bg: #0c1118;
+        --ink: #e8eef6;
+        --muted: #a9b5c4;
+        --line: rgba(255, 255, 255, 0.12);
+      }
+      html,
+      body {
+        background: var(--bg);
+        color: var(--ink);
+      }
+      .wrap {
+        max-width: 82rem;
+      }
+      .wf-box {
+        background: linear-gradient(
+          135deg,
+          rgba(255, 255, 255, 0.06),
+          rgba(255, 255, 255, 0.03)
+        );
+        border: 1px dashed var(--line);
+        border-radius: 16px;
+      }
+      .wf-tag {
+        font-size: 0.65rem;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--muted);
+      }
+      .wf-label {
+        color: #dfe7f3;
+        font-weight: 600;
+      }
+      .sep-soft {
+        height: 80px;
+        background: radial-gradient(
+          1000px 220px at 50% -10%,
+          rgba(255, 255, 255, 0.08),
+          transparent 60%
+        );
+      }
+      .skelly {
+        background: repeating-linear-gradient(
+          90deg,
+          rgba(255, 255, 255, 0.08) 0 8px,
+          transparent 8px 16px
+        );
+      }
+      .angle {
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+      }
+      .dock {
+        backdrop-filter: saturate(1.2) blur(10px);
+      }
+      .pill {
+        border: 1px dashed var(--line);
+        border-radius: 999px;
+      }
+      .dot {
+        width: 8px;
+        height: 8px;
+        border-radius: 999px;
+        background: #cbd5e1;
+      }
+      /* Sticky column */
+      .sticky-col {
+        position: sticky;
+        top: 88px;
+      }
+      /* Minimal grid helpers */
+      .grid-12 {
+        display: grid;
+        grid-template-columns: repeat(12, minmax(0, 1fr));
+        gap: 1rem;
+      }
+    </style>
+  </head>
+  <body class="antialiased selection:bg-white/10 selection:text-white">
+    <!-- Floating Command Palette / Navigation Dock -->
+    <div
+      class="fixed top-3 left-1/2 z-50 -translate-x-1/2 dock bg-white/5 border border-white/10 rounded-2xl px-3 py-2 shadow-lg"
+    >
+      <div class="flex items-center gap-2 text-xs text-[var(--muted)]">
+        <span class="pill px-3 py-1">⌘K Command</span>
+        <span class="pill px-3 py-1">Personas</span>
+        <span class="pill px-3 py-1">Atlas</span>
+        <span class="pill px-3 py-1">Workflow</span>
+        <span class="pill px-3 py-1">Pricing</span>
+        <span class="pill px-3 py-1">FAQ</span>
+      </div>
+    </div>
+
+    <!-- HERO: diagonal split + mosaic card stack -->
+    <section id="hero" class="angle relative">
+      <div class="absolute inset-0 -z-10 skelly opacity-[.07]"></div>
+      <div class="mx-auto wrap px-4 md:px-6 pt-28 pb-16">
+        <div class="grid-12 items-center">
+          <div class="col-span-12 md:col-span-6 space-y-4">
+            <div class="wf-tag">01 • Headline</div>
+            <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">
+              Out-of-the-box
+              <span class="underline decoration-dashed"
+                >Academic Discovery</span
+              >
+              Wireframe
+            </h1>
+            <p class="text-[var(--muted)] max-w-prose">
+              Hero with diagonal canvas and stacked preview. Primary action +
+              “try demo” anchor. Sub-chips for trust.
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <button class="pill px-4 py-2">Primary Action</button>
+              <a href="#atlas" class="pill px-4 py-2">Try Demo</a>
+            </div>
+            <div class="flex items-center gap-4 text-xs text-[var(--muted)]">
+              <span class="flex items-center gap-2"
+                ><span class="dot"></span> No login to explore</span
+              >
+              <span class="flex items-center gap-2"
+                ><span class="dot"></span> Privacy-first</span
+              >
+            </div>
+          </div>
+
+          <div class="col-span-12 md:col-span-6">
+            <div class="wf-box p-4">
+              <div class="wf-tag mb-2">Mosaic Preview</div>
+              <div class="grid grid-cols-3 md:grid-cols-6 gap-2">
+                <div class="h-20 wf-box"></div>
+                <div class="h-20 wf-box"></div>
+                <div class="h-20 wf-box"></div>
+                <div class="h-20 wf-box"></div>
+                <div class="h-20 wf-box"></div>
+                <div class="h-20 wf-box"></div>
+              </div>
+              <p class="text-center text-xs text-[var(--muted)] mt-3">
+                Placeholder: parsed professors/labs tiles
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="sep-soft" aria-hidden="true"></div>
+
+    <!-- PROBLEM → OUTCOME storyboard (zig-zag) -->
+    <section id="story" class="mx-auto wrap px-4 md:px-6 py-12">
+      <div class="grid-12 gap-y-10">
+        <div class="col-span-12 md:col-span-5 space-y-3">
+          <div class="wf-tag">02 • Problem</div>
+          <div class="wf-box p-5">
+            <p class="wf-label">“Maze of tabs, unclear fit, cold emails.”</p>
+            <ul class="text-sm text-[var(--muted)] list-disc list-inside mt-2">
+              <li>Hard to map faculty → topics</li>
+              <li>Low response rate</li>
+              <li>Fragmented notes & exports</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-span-12 md:col-span-2 flex items-center justify-center">
+          <div class="pill px-4 py-2">→</div>
+        </div>
+        <div class="col-span-12 md:col-span-5 space-y-3">
+          <div class="wf-tag">Outcome</div>
+          <div class="wf-box p-5">
+            <p class="wf-label">“Clear shortlist + matched outreach.”</p>
+            <ul class="text-sm text-[var(--muted)] list-disc list-inside mt-2">
+              <li>Instant map of people ↔ topics</li>
+              <li>Higher-quality outreach</li>
+              <li>One-click export/organize</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="sep-soft" aria-hidden="true"></div>
+
+    <!-- SCROLLY-TELLING: sticky explainer + step panels -->
+    <section id="how" class="mx-auto wrap px-4 md:px-6 py-16">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <aside class="md:col-span-1 sticky-col">
+          <div class="wf-tag">03 • How It Works (Sticky)</div>
+          <div class="wf-box p-5 space-y-3">
+            <p class="wf-label">Sticky explainer</p>
+            <p class="text-sm text-[var(--muted)]">
+              Left column remains visible while steps scroll.
+            </p>
+            <ul class="text-xs text-[var(--muted)] list-disc list-inside">
+              <li>Step 1: Explore</li>
+              <li>Step 2: Extract</li>
+              <li>Step 3: Match</li>
+              <li>Step 4: Save</li>
+              <li>Step 5: Reach out</li>
+            </ul>
+          </div>
+        </aside>
+        <div class="md:col-span-2 space-y-5">
+          <div class="wf-box p-6 min-h-28">
+            <span class="wf-tag">Step Panel</span>
+            <div class="mt-2">01 • Open any faculty page</div>
+          </div>
+          <div class="wf-box p-6 min-h-28">
+            <span class="wf-tag">Step Panel</span>
+            <div class="mt-2">02 • One-click extraction</div>
+          </div>
+          <div class="wf-box p-6 min-h-28">
+            <span class="wf-tag">Step Panel</span>
+            <div class="mt-2">03 • Topic matching</div>
+          </div>
+          <div class="wf-box p-6 min-h-28">
+            <span class="wf-tag">Step Panel</span>
+            <div class="mt-2">04 • Shortlist + notes</div>
+          </div>
+          <div class="wf-box p-6 min-h-28">
+            <span class="wf-tag">Step Panel</span>
+            <div class="mt-2">05 • Smart outreach</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="sep-soft" aria-hidden="true"></div>
+
+    <!-- FEATURE ATLAS: radial layout (center node + spokes) -->
+    <section id="atlas" class="mx-auto wrap px-4 md:px-6 py-16">
+      <div class="wf-tag mb-4">04 • Feature Atlas (Radial)</div>
+      <div class="relative wf-box p-6">
+        <div class="grid place-items-center">
+          <div class="w-44 h-44 rounded-full skelly opacity-20 absolute"></div>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div class="wf-box p-4">
+            <div class="wf-label">AI Scholar Finder</div>
+          </div>
+          <div class="wf-box p-4">
+            <div class="wf-label">Verified Emails</div>
+          </div>
+          <div class="wf-box p-4">
+            <div class="wf-label">Topic Matching</div>
+          </div>
+          <div class="wf-box p-4">
+            <div class="wf-label">Global Coverage</div>
+          </div>
+          <div class="wf-box p-4">
+            <div class="wf-label">One-Click Export</div>
+          </div>
+          <div class="wf-box p-4">
+            <div class="wf-label">Privacy-First</div>
+          </div>
+          <div class="wf-box p-4">
+            <div class="wf-label">Persona Profiles</div>
+          </div>
+          <div class="wf-box p-4"><div class="wf-label">Mail Hub</div></div>
+        </div>
+        <div
+          class="absolute inset-0 grid place-items-center pointer-events-none"
+        >
+          <div class="pill px-6 py-2 bg-white/5">Center Node: “APC Engine”</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="sep-soft" aria-hidden="true"></div>
+
+    <!-- PERSONA SWITCHER: students / researchers / universities -->
+    <section id="personas" class="mx-auto wrap px-4 md:px-6 py-16">
+      <div class="wf-tag mb-4">05 • Persona Switcher</div>
+      <div class="wf-box p-5">
+        <div class="flex flex-wrap gap-2 mb-4">
+          <button class="pill px-4 py-2">Students</button>
+          <button class="pill px-4 py-2">Researchers</button>
+          <button class="pill px-4 py-2">Universities</button>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div class="wf-box p-4 min-h-28">
+            <div class="wf-label">Problem</div>
+          </div>
+          <div class="wf-box p-4 min-h-28">
+            <div class="wf-label">Solution</div>
+          </div>
+          <div class="wf-box p-4 min-h-28">
+            <div class="wf-label">Outcome</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="sep-soft" aria-hidden="true"></div>
+
+    <!-- WORKFLOW LANE: kanban-ish journey (Explore → Extract → Match → Save → Outreach) -->
+    <section id="workflow" class="mx-auto wrap px-4 md:px-6 py-16">
+      <div class="wf-tag mb-4">06 • Workflow Lane</div>
+      <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
+        <div class="wf-box p-4 min-h-44">
+          <div class="wf-label">Explore</div>
+        </div>
+        <div class="wf-box p-4 min-h-44">
+          <div class="wf-label">Extract</div>
+        </div>
+        <div class="wf-box p-4 min-h-44"><div class="wf-label">Match</div></div>
+        <div class="wf-box p-4 min-h-44"><div class="wf-label">Save</div></div>
+        <div class="wf-box p-4 min-h-44">
+          <div class="wf-label">Outreach</div>
+        </div>
+      </div>
+      <p class="text-xs text-[var(--muted)] mt-3">
+        Each lane becomes an animated micro-demo later.
+      </p>
+    </section>
+
+    <div class="sep-soft" aria-hidden="true"></div>
+
+    <!-- PRICING / CTA STRIP -->
+    <section id="cta" class="mx-auto wrap px-4 md:px-6 py-14">
+      <div class="wf-tag mb-2">07 • Conversion Strip</div>
+      <div class="wf-box p-6">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+          <div class="wf-box p-4"><div class="wf-label">Free</div></div>
+          <div class="wf-box p-4"><div class="wf-label">Student+</div></div>
+          <div class="wf-box p-4"><div class="wf-label">Research Lab</div></div>
+          <div class="wf-box p-4"><div class="wf-label">University</div></div>
+        </div>
+        <div class="flex flex-wrap gap-2 mt-4">
+          <button class="pill px-4 py-2">Install</button>
+          <button class="pill px-4 py-2">Contact Sales</button>
+        </div>
+      </div>
+    </section>
+
+    <div class="sep-soft" aria-hidden="true"></div>
+
+    <!-- FAQ accordion wireframe -->
+    <section id="faq" class="mx-auto wrap px-4 md:px-6 py-16">
+      <div class="wf-tag mb-4">08 • FAQ</div>
+      <div class="space-y-3">
+        <div class="wf-box p-4">
+          <div class="wf-label">Does it work on any university site?</div>
+        </div>
+        <div class="wf-box p-4">
+          <div class="wf-label">How do you handle emails?</div>
+        </div>
+        <div class="wf-box p-4">
+          <div class="wf-label">Is my data private?</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="sep-soft" aria-hidden="true"></div>
+
+    <!-- FOOTER: utility clusters -->
+    <footer class="mx-auto wrap px-4 md:px-6 py-10">
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+        <div class="wf-box p-4"><div class="wf-label">Brand / Blurb</div></div>
+        <div class="wf-box p-4"><div class="wf-label">Product Links</div></div>
+        <div class="wf-box p-4"><div class="wf-label">Company Links</div></div>
+      </div>
+      <p class="text-xs text-[var(--muted)] mt-4">
+        © <span id="y"></span> APCScholariest
+      </p>
+    </footer>
+
+    <script>
+      document.getElementById("y").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

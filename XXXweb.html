@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth" data-theme="apc">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>APCScholariest — Find your future supervisor</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      /* ===================== THEME from your logo ===================== */
+      :root,
+      [data-theme="apc"] {
+        --bg: #0b1724;
+        --ink: #eaf4f8;
+        --ink-soft: #b7c6d0;
+        --primary: #2ecac9;
+        --primary-700: #19a9a8;
+        --accent: #69b0ff;
+        --line: rgba(234, 244, 248, 0.14);
+        --card: #0f2233;
+        --cta: #ffd973;
+      }
+      html,
+      body {
+        background: var(--bg);
+        color: var(--ink);
+        height: 100%;
+      }
+
+      /* ===================== GLOBAL BACKDROP (no borders) ===================== */
+      .global-bg {
+        position: fixed;
+        inset: 0;
+        z-index: -1;
+        overflow: hidden;
+        background: radial-gradient(
+            1200px 600px at 10% -10%,
+            rgba(255, 255, 255, 0.12),
+            transparent 60%
+          ),
+          radial-gradient(
+            900px 500px at 120% 10%,
+            rgba(255, 255, 255, 0.1),
+            transparent 60%
+          ),
+          linear-gradient(120deg, #0b1724 0%, #0e1d2c 48%, #13263a 100%);
+      }
+      .orb {
+        position: absolute;
+        filter: blur(70px);
+        mix-blend: screen;
+        opacity: 0.55;
+        pointer-events: none;
+      }
+      .orb-1 {
+        width: 48rem;
+        height: 48rem;
+        left: -12rem;
+        top: -10rem;
+        background: rgba(46, 202, 201, 0.45);
+        animation: float 18s ease-in-out infinite;
+      }
+      .orb-2 {
+        width: 40rem;
+        height: 40rem;
+        right: -10rem;
+        top: -4rem;
+        background: rgba(105, 176, 255, 0.42);
+        animation: float 22s ease-in-out infinite reverse;
+      }
+      .orb-3 {
+        width: 36rem;
+        height: 36rem;
+        left: 20%;
+        bottom: -12rem;
+        background: rgba(255, 170, 220, 0.36);
+        animation: float 24s ease-in-out infinite;
+      }
+      @keyframes float {
+        0% {
+          transform: translateY(0) translateX(0);
+        }
+        50% {
+          transform: translateY(24px) translateX(12px);
+        }
+        100% {
+          transform: translateY(0) translateX(0);
+        }
+      }
+
+      /* ===================== MOTION / ORGANIC ===================== */
+      /* Gooey organic blobs */
+      .blob {
+        position: absolute;
+        filter: url(#goo);
+        opacity: 0.65;
+        mix-blend: screen;
+        pointer-events: none;
+      }
+      .blob::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        border-radius: 55% 45% 60% 40%/50% 55% 45% 50%;
+        background: radial-gradient(
+            120px 160px at 30% 30%,
+            #d9fffb,
+            transparent 60%
+          ),
+          radial-gradient(
+            240px 220px at 72% 40%,
+            rgba(46, 202, 201, 0.45),
+            transparent 70%
+          ),
+          radial-gradient(
+            200px 260px at 42% 72%,
+            rgba(19, 169, 168, 0.28),
+            transparent 70%
+          );
+      }
+      @keyframes blobMove {
+        0% {
+          transform: translate(0, 0) scale(1) rotate(0);
+        }
+        50% {
+          transform: translate(18px, -14px) scale(1.05) rotate(6deg);
+        }
+        100% {
+          transform: translate(0, 0) scale(1) rotate(0);
+        }
+      }
+      .blob {
+        animation: blobMove 20s ease-in-out infinite;
+      }
+      .blob.slow {
+        animation-duration: 26s;
+      }
+      .blob.fast {
+        animation-duration: 14s;
+      }
+
+      /* Scroll reveal */
+      .reveal {
+        opacity: 0;
+        transform: translateY(22px) scale(0.98);
+      }
+      .reveal.show {
+        opacity: 1;
+        transform: none;
+        transition: opacity 0.7s cubic-bezier(0.2, 0.7, 0, 1),
+          transform 0.7s cubic-bezier(0.2, 0.7, 0, 1);
+      }
+      .d1 {
+        transition-delay: 0.08s;
+      }
+      .d2 {
+        transition-delay: 0.16s;
+      }
+      .d3 {
+        transition-delay: 0.24s;
+      }
+      .d4 {
+        transition-delay: 0.32s;
+      }
+
+      /* Tilt micro-interaction */
+      .tilt {
+        transform-style: preserve-3d;
+        perspective: 800px;
+      }
+      .tilt .tilt-inner {
+        transition: transform 0.35s ease;
+      }
+      .tilt:hover .tilt-inner {
+        transform: rotateX(6deg) rotateY(-6deg) translateZ(6px);
+      }
+
+      /* ===================== 1) TYPOGRAPHY ===================== */
+      .h1 {
+        font-weight: 800;
+        letter-spacing: -0.02em;
+        line-height: 1.05;
+        font-size: clamp(2.25rem, 3.4vw + 1rem, 3.75rem);
+      }
+      .h2 {
+        font-weight: 800;
+        letter-spacing: -0.01em;
+        line-height: 1.1;
+        font-size: clamp(1.5rem, 2vw + 1rem, 2.25rem);
+      }
+      .eyebrow {
+        font-size: 0.72rem;
+        letter-spacing: 0.25em;
+        text-transform: uppercase;
+        color: var(--accent);
+      }
+      .lead {
+        color: var(--ink-soft);
+        max-width: 65ch;
+      }
+      .measure {
+        max-width: 70ch;
+      }
+
+      /* ===================== 2) LAYOUT / SPACING ===================== */
+      .container {
+        max-width: 74rem;
+      }
+      .section {
+        padding-block: clamp(3rem, 6vw, 5rem);
+      }
+      .stack > * + * {
+        margin-top: clamp(0.5rem, 1.4vw, 0.9rem);
+      }
+      .cluster {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+      }
+      .grid-2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: clamp(1rem, 2.5vw, 2rem);
+      }
+      @media (min-width: 768px) {
+        .grid-2 {
+          grid-template-columns: 1.15fr 0.85fr;
+        }
+      }
+      .grid-3 {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: clamp(1rem, 2vw, 1.5rem);
+      }
+      @media (min-width: 1024px) {
+        .grid-3 {
+          grid-template-columns: repeat(3, 1fr);
+        }
+      }
+
+      /* Cards (glass) */
+      .card {
+        background: color-mix(in oklab, var(--card) 85%, transparent 15%);
+        border: 1px solid var(--line);
+        border-radius: 1rem;
+        backdrop-filter: blur(10px);
+        box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18),
+          0 2px 8px rgba(0, 0, 0, 0.08);
+        transition: 0.28s ease;
+      }
+      .card:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 18px 60px rgba(0, 0, 0, 0.22);
+      }
+
+      /* Soft separators (no borders) */
+      .between {
+        height: 84px;
+        opacity: 0.6;
+        background: linear-gradient(
+          180deg,
+          transparent 0%,
+          rgba(255, 255, 255, 0.07) 40%,
+          transparent 100%
+        );
+      }
+
+      /* ===================== 3) COLOR THEORY ===================== */
+      .grad-text {
+        background: linear-gradient(
+          90deg,
+          var(--primary) 0%,
+          var(--accent) 55%,
+          #ff9bd7 100%
+        );
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
+      .tag {
+        font-size: 0.72rem;
+        padding: 0.35rem 0.6rem;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        color: var(--ink-soft);
+      }
+
+      /* ===================== 4) CODING BASICS (a11y) ===================== */
+      :focus-visible {
+        outline: 2px solid var(--cta);
+        outline-offset: 3px;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        * {
+          animation: none !important;
+          transition: none !important;
+        }
+      }
+
+      /* Buttons */
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.8rem 1.15rem;
+        font-weight: 700;
+        border-radius: 0.85rem;
+        transition: 0.15s ease;
+        gap: 0.5rem;
+      }
+      .btn-primary {
+        color: #0b1724;
+        background: linear-gradient(135deg, var(--cta), #ffe9b0);
+        border: 1px solid rgba(255, 255, 255, 0.22);
+      }
+      .btn-primary:hover {
+        filter: brightness(1.05);
+        transform: translateY(-1px);
+      }
+      .btn-ghost {
+        color: var(--ink);
+        border: 1px solid var(--line);
+        background: color-mix(in oklab, var(--card) 28%, transparent 72%);
+      }
+      .btn-ghost:hover {
+        background: color-mix(in oklab, var(--card) 45%, transparent 55%);
+      }
+
+      .dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 999px;
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body
+    class="antialiased selection:bg-[color:var(--accent)]/25 selection:text-white"
+  >
+    <!-- SVG filter for gooey blobs -->
+    <svg width="0" height="0" class="absolute">
+      <defs>
+        <filter id="goo">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+          <feColorMatrix
+            in="blur"
+            mode="matrix"
+            values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -10"
+            result="goo"
+          />
+          <feBlend in="SourceGraphic" in2="goo" />
+        </filter>
+      </defs>
+    </svg>
+
+    <!-- global backdrop -->
+    <div class="global-bg" aria-hidden="true">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+    </div>
+
+    <!-- HEADER / NAV -->
+    <header
+      class="sticky top-0 z-40 backdrop-blur bg-[#0b1724]/70"
+      role="banner"
+    >
+      <div class="mx-auto container px-4 md:px-6">
+        <div class="flex h-16 items-center justify-between">
+          <a href="#home" class="flex items-center gap-2 text-lg font-semibold">
+            <span
+              class="h-6 w-6 rounded bg-gradient-to-br from-[color:var(--primary)] to-[color:var(--accent)]"
+            ></span>
+            APCScholariest
+          </a>
+          <nav
+            aria-label="Primary"
+            class="hidden md:flex items-center gap-7 text-sm text-[color:var(--ink-soft)]"
+          >
+            <a class="hover:text-white" href="#skills-typography">Typography</a>
+            <a class="hover:text-white" href="#skills-layout">Layout</a>
+            <a class="hover:text-white" href="#skills-color">Color</a>
+            <a class="hover:text-white" href="#skills-code">Coding</a>
+            <a class="hover:text-white" href="#skills-conversion">Conversion</a>
+          </nav>
+          <div class="flex items-center gap-2">
+            <a href="#" class="hidden md:inline-flex btn btn-ghost text-sm"
+              >Sign in</a
+            >
+            <a
+              href="#"
+              class="btn btn-primary text-sm"
+              aria-label="Install extension"
+              >Get Started</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section
+      id="home"
+      class="section relative min-h-[88vh] flex items-center"
+      aria-labelledby="hero-heading"
+    >
+      <!-- organic blobs -->
+      <div
+        class="blob fast"
+        style="width: 420px; height: 420px; left: -120px; top: -80px"
+      ></div>
+      <div
+        class="blob slow"
+        style="width: 360px; height: 360px; right: -80px; top: 40px"
+      ></div>
+      <div
+        class="blob"
+        style="width: 300px; height: 300px; left: 15%; bottom: -120px"
+      ></div>
+
+      <div
+        class="relative z-10 mx-auto container px-4 md:px-6 grid-2 items-center"
+      >
+        <div class="reveal">
+          <p class="eyebrow">Academic Discovery, Upgraded</p>
+          <h1 id="hero-heading" class="h1 mt-3">
+            Find your <span class="grad-text">dream supervisor</span>, lab &
+            university — in one click
+          </h1>
+          <p class="lead mt-4">
+            The browser extension that turns any university page into a smart
+            map of professors, topics, and verified contacts.
+          </p>
+          <div class="cluster mt-7">
+            <a
+              href="#"
+              class="btn btn-primary"
+              aria-label="Install the APCScholariest extension"
+              >Install Extension</a
+            >
+            <a
+              href="#skills-conversion"
+              class="btn btn-ghost"
+              aria-label="See how conversion is optimized"
+              >See why it converts</a
+            >
+          </div>
+          <div
+            class="mt-6 flex items-center gap-5 text-xs text-[color:var(--ink-soft)]"
+            aria-label="Benefits"
+          >
+            <span class="flex items-center gap-2"
+              ><span class="dot bg-[color:var(--primary)]/90"></span>
+              Privacy-first</span
+            >
+            <span class="flex items-center gap-2"
+              ><span class="dot bg-[color:var(--accent)]/90"></span>
+              Multilingual</span
+            >
+            <span class="flex items-center gap-2"
+              ><span class="dot bg-yellow-300"></span> Free to start</span
+            >
+          </div>
+        </div>
+
+        <!-- Visual card with tilt -->
+        <aside class="card p-4 tilt reveal d1" aria-label="Visual preview">
+          <div class="tilt-inner">
+            <div
+              class="rounded-xl border border-[color:var(--line)] bg-white/5 p-4"
+            >
+              <div class="mb-4 h-4 w-28 rounded bg-[color:var(--line)]"></div>
+              <div class="grid grid-cols-2 gap-3" aria-hidden="true">
+                <div
+                  class="rounded-lg border border-[color:var(--line)] bg-white/5 p-3"
+                >
+                  <div class="h-3 w-20 rounded bg-[color:var(--line)]"></div>
+                  <div
+                    class="mt-2 h-3 w-32 rounded bg-[color:var(--line)]"
+                  ></div>
+                  <div
+                    class="mt-2 h-3 w-16 rounded bg-[color:var(--line)]"
+                  ></div>
+                </div>
+                <div
+                  class="rounded-lg border border-[color:var(--line)] bg-white/5 p-3"
+                >
+                  <div class="h-3 w-20 rounded bg-[color:var(--line)]"></div>
+                  <div
+                    class="mt-2 h-3 w-32 rounded bg-[color:var(--line)]"
+                  ></div>
+                  <div
+                    class="mt-2 h-3 w-16 rounded bg-[color:var(--line)]"
+                  ></div>
+                </div>
+                <div
+                  class="rounded-lg border border-[color:var(--line)] bg-white/5 p-3"
+                >
+                  <div class="h-3 w-20 rounded bg-[color:var(--line)]"></div>
+                  <div
+                    class="mt-2 h-3 w-32 rounded bg-[color:var(--line)]"
+                  ></div>
+                  <div
+                    class="mt-2 h-3 w-16 rounded bg-[color:var(--line)]"
+                  ></div>
+                </div>
+                <div
+                  class="rounded-lg border border-[color:var(--line)] bg-white/5 p-3"
+                >
+                  <div class="h-3 w-20 rounded bg-[color:var(--line)]"></div>
+                  <div
+                    class="mt-2 h-3 w-32 rounded bg-[color:var(--line)]"
+                  ></div>
+                  <div
+                    class="mt-2 h-3 w-16 rounded bg-[color:var(--line)]"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="mt-3 text-center text-xs text-[color:var(--ink-soft)]">
+            Demo — parsed professors preview
+          </p>
+        </aside>
+      </div>
+    </section>
+
+    <div class="between" aria-hidden="true"></div>
+
+    <!-- ===================== 1) TYPOGRAPHY ===================== -->
+    <section
+      id="skills-typography"
+      class="section relative"
+      aria-labelledby="typography-heading"
+    >
+      <div
+        class="blob"
+        style="width: 360px; height: 360px; right: -120px; top: -80px"
+      ></div>
+      <div
+        class="mx-auto container px-4 md:px-6 grid-2 items-start relative z-10"
+      >
+        <div class="stack reveal">
+          <p class="eyebrow">1 • Typography</p>
+          <h2 id="typography-heading" class="h2">
+            The foundation of great web design
+          </h2>
+          <p class="measure">
+            We use a modular scale for headings, generous line-height for
+            readability, and keep line-length near 65–70ch. Headings carry the
+            weight; body stays calm. This yields predictable rhythm across every
+            section.
+          </p>
+          <div class="cluster">
+            <span class="tag">clamp()</span><span class="tag">70ch measure</span
+            ><span class="tag">-0.02em tracking</span>
+          </div>
+        </div>
+        <div class="card p-6 stack reveal d1">
+          <h3 class="text-lg font-semibold">Type scale in action</h3>
+          <p class="text-sm text-[color:var(--ink-soft)]">
+            H1 → H2 → Body creates clear scanning patterns and hierarchy.
+          </p>
+          <ul class="mt-2 space-y-2 text-sm">
+            <li>• H1: product promise</li>
+            <li>• H2: section purpose</li>
+            <li>• Lead/body: focused, scannable, specific</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <div class="between" aria-hidden="true"></div>
+
+    <!-- ===================== 2) LAYOUT ===================== -->
+    <section
+      id="skills-layout"
+      class="section"
+      aria-labelledby="layout-heading"
+    >
+      <div class="mx-auto container px-4 md:px-6">
+        <div class="stack reveal">
+          <p class="eyebrow">2 • Layout</p>
+          <h2 id="layout-heading" class="h2">
+            Perfecting structure, spacing & visual hierarchy
+          </h2>
+          <p class="measure">
+            We standardize vertical rhythm with <code>.section</code> spacing,
+            use clusters for button groups, and grid utilities for responsive
+            blocks. No hard borders; sections blend with soft separators.
+          </p>
+        </div>
+        <div class="grid-3 mt-8">
+          <div class="card p-6 reveal">
+            <h3 class="font-semibold">Consistent rhythm</h3>
+            <p class="text-sm text-[color:var(--ink-soft)] mt-2">
+              Clamp-based section padding and stack spacing keep flow
+              consistent.
+            </p>
+          </div>
+          <div class="card p-6 reveal d1">
+            <h3 class="font-semibold">Grid clarity</h3>
+            <p class="text-sm text-[color:var(--ink-soft)] mt-2">
+              Two- and three-column grids adapt from mobile to desktop cleanly.
+            </p>
+          </div>
+          <div class="card p-6 reveal d2">
+            <h3 class="font-semibold">Scan patterns</h3>
+            <p class="text-sm text-[color:var(--ink-soft)] mt-2">
+              Headline → subhead → action. Cards emphasize key benefits.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="between" aria-hidden="true"></div>
+
+    <!-- ===================== 3) COLOR ===================== -->
+    <section
+      id="skills-color"
+      class="section relative"
+      aria-labelledby="color-heading"
+    >
+      <div
+        class="blob slow"
+        style="width: 420px; height: 420px; left: -160px; top: -60px"
+      ></div>
+      <div
+        class="mx-auto container px-4 md:px-6 grid-2 items-start relative z-10"
+      >
+        <div class="stack reveal">
+          <p class="eyebrow">3 • Color</p>
+          <h2 id="color-heading" class="h2">Using color intentionally</h2>
+          <p class="measure">
+            Teal (primary) guides actions and highlights. Deep navy keeps
+            background calm. Blue companion and a warm CTA provide contrast and
+            draw attention without fighting the brand.
+          </p>
+          <div class="cluster">
+            <span class="tag">Primary: Teal</span
+            ><span class="tag">Canvas: Deep Navy</span
+            ><span class="tag">CTA: Warm Gold</span>
+          </div>
+        </div>
+        <div class="card p-6 reveal d1">
+          <div class="grid grid-cols-4 gap-3">
+            <div
+              class="rounded-lg h-14 bg-[color:var(--primary)]"
+              title="Primary"
+            ></div>
+            <div
+              class="rounded-lg h-14 bg-[color:var(--accent)]"
+              title="Accent"
+            ></div>
+            <div
+              class="rounded-lg h-14 bg-[color:var(--cta)]"
+              title="CTA"
+            ></div>
+            <div
+              class="rounded-lg h-14 bg-white/10 border border-[color:var(--line)]"
+              title="Card"
+            ></div>
+          </div>
+          <p class="text-xs text-[color:var(--ink-soft)] mt-3">
+            Primary drives actions; CTA highlights the main conversion.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="between" aria-hidden="true"></div>
+
+    <!-- ===================== 4) CODING BASICS ===================== -->
+    <section
+      id="skills-code"
+      class="section"
+      aria-labelledby="code-heading"
+      role="region"
+      aria-roledescription="Best practices"
+    >
+      <div class="mx-auto container px-4 md:px-6 grid-2 items-start">
+        <div class="stack reveal">
+          <p class="eyebrow">4 • Coding</p>
+          <h2 id="code-heading" class="h2">
+            Essential skills for web designers
+          </h2>
+          <p class="measure">
+            Semantic landmarks, focus-visible styles, ARIA labels,
+            prefers-reduced-motion support, and meaningful contrast. The markup
+            remains simple, readable, and production-friendly.
+          </p>
+          <div class="cluster">
+            <span class="tag">Semantic HTML</span
+            ><span class="tag">A11y focus</span
+            ><span class="tag">Reduced motion</span>
+          </div>
+        </div>
+        <div class="card p-6 reveal d1">
+          <h3 class="font-semibold">What’s applied here</h3>
+          <ul class="mt-2 space-y-2 text-sm text-[color:var(--ink-soft)]">
+            <li>
+              • Proper landmarks (header, nav, main-like sections, footer)
+            </li>
+            <li>• Buttons/links with clear names & intent</li>
+            <li>• Keyboard-friendly focus outlines</li>
+            <li>• No “infinite animations” if user prefers reduced motion</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <div class="between" aria-hidden="true"></div>
+
+    <!-- ===================== 5) CONVERSION ===================== -->
+    <section
+      id="skills-conversion"
+      class="section relative"
+      aria-labelledby="conversion-heading"
+    >
+      <div
+        class="blob"
+        style="width: 360px; height: 360px; right: -120px; bottom: -120px"
+      ></div>
+      <div class="mx-auto container px-4 md:px-6 relative z-10">
+        <div class="stack reveal">
+          <p class="eyebrow">5 • Conversion</p>
+          <h2 id="conversion-heading" class="h2">Designing for action</h2>
+          <p class="measure">
+            Above-the-fold value prop + clear primary CTA, secondary safe-choice
+            CTA, proof snippets, and a simple capture. We reduce friction and
+            keep choices obvious.
+          </p>
+        </div>
+
+        <div class="grid-3 mt-8">
+          <div class="card p-6 reveal">
+            <h3 class="font-semibold">Primary CTA</h3>
+            <p class="text-sm text-[color:var(--ink-soft)] mt-2">
+              High-contrast button: “Install Extension”.
+            </p>
+            <a
+              href="#"
+              class="btn btn-primary mt-3"
+              aria-label="Install extension"
+              >Install Extension</a
+            >
+          </div>
+          <div class="card p-6 reveal d1">
+            <h3 class="font-semibold">Proof & Safety</h3>
+            <p class="text-sm text-[color:var(--ink-soft)] mt-2">
+              Short trust line + privacy note to reduce anxiety.
+            </p>
+            <p class="text-xs text-[color:var(--ink-soft)] mt-2">
+              No data selling. You control your shortlist.
+            </p>
+          </div>
+          <div class="card p-6 reveal d2">
+            <h3 class="font-semibold">Quick Capture</h3>
+            <p class="text-sm text-[color:var(--ink-soft)] mt-2">
+              Email for updates (optional).
+            </p>
+            <form class="mt-3 flex gap-2" aria-label="Join waitlist">
+              <label for="email" class="sr-only">Email</label>
+              <input
+                id="email"
+                type="email"
+                placeholder="you@university.edu"
+                class="w-full rounded-lg border border-[color:var(--line)] bg-white/5 px-3 py-2 text-sm placeholder:text-[color:var(--ink-soft)] focus:outline-none focus:ring-2 focus:ring-[color:var(--cta)]"
+              />
+              <button class="btn btn-ghost text-sm" type="submit">Join</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="section pt-8" role="contentinfo" aria-label="Footer">
+      <div class="mx-auto container px-4 md:px-6">
+        <div class="grid grid-cols-1 gap-8 sm:grid-cols-3">
+          <div>
+            <div class="mb-2 flex items-center gap-2">
+              <span
+                class="h-6 w-6 rounded bg-gradient-to-br from-[color:var(--primary)] to-[color:var(--accent)]"
+              ></span>
+              <span class="text-sm font-semibold">APCScholariest</span>
+            </div>
+            <p class="text-sm text-[color:var(--ink-soft)]">
+              Your academic future — powered by intelligence.
+            </p>
+          </div>
+          <nav aria-label="Footer product">
+            <h4 class="mb-2 text-sm font-semibold">Product</h4>
+            <ul class="space-y-1 text-sm text-[color:var(--ink-soft)]">
+              <li>
+                <a class="hover:text-white" href="#skills-conversion"
+                  >Why it works</a
+                >
+              </li>
+              <li>
+                <a class="hover:text-white" href="#skills-layout"
+                  >Design system</a
+                >
+              </li>
+              <li>
+                <a class="hover:text-white" href="#skills-code"
+                  >Accessibility</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <nav aria-label="Footer company">
+            <h4 class="mb-2 text-sm font-semibold">Company</h4>
+            <ul class="space-y-1 text-sm text-[color:var(--ink-soft)]">
+              <li><a class="hover:text-white" href="#">Privacy</a></li>
+              <li><a class="hover:text-white" href="#">Terms</a></li>
+              <li><a class="hover:text-white" href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div
+          class="pt-6 text-xs text-[color:var(--ink-soft)] flex items-center justify-between"
+        >
+          <span
+            >© <span id="y"></span> APCScholariest — All rights reserved.</span
+          >
+          <span>Language · Theme</span>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Year
+      document.getElementById("y").textContent = new Date().getFullYear();
+
+      // Scroll-reveal
+      const io = new IntersectionObserver(
+        (entries) => {
+          for (const e of entries) {
+            if (e.isIntersecting) {
+              e.target.classList.add("show");
+              io.unobserve(e.target);
+            }
+          }
+        },
+        { threshold: 0.16 }
+      );
+      document.querySelectorAll(".reveal").forEach((el) => io.observe(el));
+
+      // Subtle parallax for blobs (mouse)
+      const root = document.body;
+      const blobs = document.querySelectorAll(".blob");
+      root.addEventListener(
+        "pointermove",
+        (e) => {
+          const r = root.getBoundingClientRect();
+          const cx = (e.clientX - r.left) / r.width - 0.5;
+          const cy = (e.clientY - r.top) / r.height - 0.5;
+          blobs.forEach((b, i) => {
+            const depth = ((i % 3) + 1) * 6;
+            b.style.transform = `translate(${cx * depth}px, ${cy * depth}px)`;
+          });
+        },
+        { passive: true }
+      );
+    </script>
+  </body>
+</html>
